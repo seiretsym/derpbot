@@ -9,14 +9,11 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// passport config
+// session config
 app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 
 // routing
 app.use(routes);
-
-// dev public asset
-app.use(express.static("client/public"))
 
 // mongoose db
 // const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/derpbot";

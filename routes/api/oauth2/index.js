@@ -27,4 +27,11 @@ router.route("/discord-callback")
     })
   })
 
+router.route("/discord-botadd")
+  .get((req, res) => {
+    console.log("query: ", req.query);
+    console.log("body: ", req.body);
+    res.json(req);
+  })
+
 module.exports = router;
