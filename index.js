@@ -1,20 +1,19 @@
 // dependencies
 const express = require("express");
+const session = require("express-session");
 // const mongoose = require("mongoose");
-// const routes = require("./routes");
+const routes = require("./routes");
 
 // middleware
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// for heroku & react
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// passport config
+app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 
 // routing
-// app.use(routes);
+app.use(routes);
 
 // mongoose db
 // const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/derpbot";

@@ -5,10 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.20.0",
+    "btoa": "^1.2.1",
     "discord.js": "^12.3.1",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "mongoose": "^5.10.2",
     "opusscript": "0.0.7",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
     "ytdl-core": "^3.2.2"
   },
   "devDependencies": {
