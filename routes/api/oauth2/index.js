@@ -20,10 +20,8 @@ router.route("/discord-callback")
         "Content-Type": "application/x-www-form-urlencoded"
       }
     }).then(response => {
-      console.log(response.data);
       req.session.user = response.data;
       res.sendFile(path.join(__dirname, "../../../pages/redirect.html"));
-      // res.json(response.data);
     }).catch(err => {
       res.json(err);
     })
