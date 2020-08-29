@@ -1,4 +1,5 @@
 require("dotenv").config();
+const path = require("path");
 const router = require("express").Router();
 const axios = require("axios");
 const qs = require("querystring");
@@ -21,7 +22,8 @@ router.route("/discord-callback")
     }).then(response => {
       console.log(response.data);
       req.session.user = response.data;
-      res.json(response.data);
+      res.sendFile(path.join(__dirname, "../../../pages/redirect.html"));
+      // res.json(response.data);
     }).catch(err => {
       res.json(err);
     })
