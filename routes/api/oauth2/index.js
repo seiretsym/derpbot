@@ -41,7 +41,7 @@ router.route("/discord-botadd")
     req.session.guild = guild_id;
     axios.get(`https://discord.com/api/guilds/${guild_id}`, {
       headers: {
-        "Authorization": "Bot " + process.env.BOT_TOKEN,
+        "Authorization": `Bot ${process.env.BOT_TOKEN}`,
       }
     })
       .then(({ data }) => {
