@@ -1,20 +1,25 @@
 <template>
   <div>
-    <div class="container">
-      <div class="jumbotron bg-dark text-center">
+    <div class="container text-center">
       <h3>SELECT A SERVER</h3>
       <ul class="list-group">
-        <a v-for="guild in guilds" :key="guild.id" class="" :href="link+'&guild_id='+guild.id" target="_new" onclick="window.open(this.href,'popUpWindow','height=800,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;">
-          <li :key="guild.id" class="d-flex rounded btn btn-dark w-50 list-group-item bg-dark my-1 mx-auto border border-secondary p-3">
+          <li v-for="guild in guilds" :key="guild.id" class="d-flex my-2 w-50 rounded btn btn-dark list-group-item bg-dark mx-auto border border-secondary p-3">
             <img v-if="guild.icon !== null" :src="'https://cdn.discordapp.com/icons/'+guild.id+'/'+guild.icon+'.png'" height="32" width="32">
-            <div v-else height="40" width="40" class="border border-secondary p-3" style="border-radius: 25px"></div>
+            <div v-else height="40" width="40" class="border border-secondary px-3" style="border-radius: 25px"></div>
             <div class="my-auto ml-3">{{ guild.name }}</div>
-            <button class="ml-auto btn btn-info">Configure</button>
+            <div v-if="guild.added" class="ml-auto">
+              <a class="btn btn-info border border-info" :href="'/configure?guild='+guild.id">
+              Configure
+              </a>
+            </div>
+            <div v-else class="ml-auto">
+              <a class="btn btn-info border border-info" :href="link+'&guild_id='+guild.id" target="_new" onclick="window.open(this.href,'popUpWindow','height=800,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;">
+              Add Derp
+              </a>
+            </div>
           </li>
-        </a>
       </ul>
       </div>
-    </div>
   </div>
 </template>
 
@@ -36,11 +41,18 @@ export default {
   data: function() {
     return {
       guilds: Array,
-      link: process.env.VUE_APP_BOT_OAUTH2
+      link: process.env.VUE_APP_BOT_OAUTH2,
+
     }
   },
   mounted() {
-    api.getUserGuilds().then(({data}) => {this.guilds = data})
+    api.getUserGuilds().then(({data}) => {
+      if (data === "nope") {
+        window.location.replace("/");
+      } else {
+        return this.guilds = data
+      }
+    })
   }
 }
 </script>

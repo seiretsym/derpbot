@@ -3,6 +3,7 @@ const path = require("path");
 const router = require("express").Router();
 const axios = require("axios");
 const qs = require("querystring");
+const db = require("../../../models");
 
 // Matches with "/api/oauth2/discord-callback"
 router.route("/discord-callback")
@@ -19,9 +20,16 @@ router.route("/discord-callback")
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
       }
-    }).then(response => {
-      req.session.user = response.data;
-      res.sendFile(path.join(__dirname, "../../../pages/redirect.html"));
+    }).then(({ data }) => {
+      req.session.user = data;
+      axios.get("https://discord.com/api/users/@me", {
+        headers: {
+          "Authorization": `${req.session.user.token_type} ${req.session.user.access_token}`
+        }
+      }).then(({ data }) => {
+        req.session.user.id = data.id;
+        res.sendFile(path.join(__dirname, "../../../pages/redirect.html"));
+      })
     }).catch(err => {
       res.json(err);
     })
@@ -31,7 +39,29 @@ router.route("/discord-botadd")
   .get((req, res) => {
     const { guild_id } = req.query;
     req.session.guild = guild_id;
-    res.sendFile(path.join(__dirname, "../../../pages/redirect2.html"));
+    axios.get(`https://discord.com/api/guilds/${guild_id}`, {
+      headers: {
+        "Authorization": "Bot " + process.env.BOT_TOKEN,
+      }
+    })
+      .then(({ data }) => {
+        const guild = {
+          user_id: req.session.user.id,
+          name: data.name,
+          guild_id: guild_id
+        }
+        db.Guild
+          .create(guild)
+          .then(data => {
+            console.log("Guild added: ", data);
+            res.sendFile(path.join(__dirname, "../../../pages/redirect2.html"));
+          })
+          .catch(err => {
+            res.json(err);
+          })
+      }).catch(err => {
+        console.log(err);
+      });
   })
 
 module.exports = router;

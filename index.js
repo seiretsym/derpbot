@@ -1,7 +1,7 @@
 // dependencies
 const express = require("express");
 const session = require("express-session");
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const routes = require("./routes");
 
 // middleware
@@ -16,13 +16,13 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 app.use(routes);
 
 // mongoose db
-// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/derpbot";
-// const configs = {
-//   useFindAndModify: false,
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// }
-// mongoose.connect(MONGODB_URI, configs);
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/derpbot";
+const configs = {
+  useFindAndModify: false,
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}
+mongoose.connect(MONGODB_URI, configs);
 
 // start server
 const PORT = process.env.PORT || 3377;
