@@ -29,9 +29,9 @@ router.route("/discord-callback")
 
 router.route("/discord-botadd")
   .get((req, res) => {
-    console.log("query: ", req.query);
-    console.log("body: ", req.body);
-    res.json(req);
+    const { guild_id } = req.query;
+    req.session.guild = guild_id;
+    res.sendFile(path.join(__dirname, "../../../pages/redirect2.html"));
   })
 
 module.exports = router;

@@ -5,18 +5,21 @@ const Schema = mongoose.Schema
 
 // create schema
 const GuildSchema = new Schema({
+  user_id: {
+    type: Number,
+    required: true,
+  },
   name: {
     type: String,
-    unique: true,
     required: true
   },
-  id: {
+  guild_id: {
     type: String,
     required: true,
   },
   channels: [{
-    type: Number,
-    required: true,
+    type: Schema.Types.ObjectId,
+    ref: "Channel"
   }],
 })
 
