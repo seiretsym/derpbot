@@ -98,7 +98,7 @@
           <div aria-hidden="true" class="category-label bg-dark">Nature</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.nature" :key="emoji.name">
-              <button :aria-label="emoji.unicode || 'derp'" class="emoji-list-item" :title="emoji.name" type="button">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -339,7 +339,7 @@ export default {
     const emojiList = document.getElementsByName("emoji-list")[0];
 
     emojiList.addEventListener("scroll", function() {
-      
+
       if (emojiList.scrollTop + 190 >= section1.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");

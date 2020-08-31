@@ -2,791 +2,791 @@
   "food": [
     {
       "name": ":green_apple:",
-      "unicode": "",
+      "unicode": "🍏",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":apple:",
-      "unicode": "",
+      "unicode": "🍎",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pear:",
-      "unicode": "",
+      "unicode": "🍐",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tangerine:",
-      "unicode": "",
+      "unicode": "🍊",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":lemon:",
-      "unicode": "",
+      "unicode": "🍋",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":banana:",
-      "unicode": "",
+      "unicode": "🍌",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":watermelon:",
-      "unicode": "",
+      "unicode": "🍉",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":grapes:",
-      "unicode": "",
+      "unicode": "🍇",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":strawberry:",
-      "unicode": "",
+      "unicode": "🍓",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":melon:",
-      "unicode": "",
+      "unicode": "🍈",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cherries:",
-      "unicode": "",
+      "unicode": "🍒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":peach:",
-      "unicode": "",
+      "unicode": "🍑",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mango:",
-      "unicode": "",
+      "unicode": "🥭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pineapple:",
-      "unicode": "",
+      "unicode": "🍍",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":coconut:",
-      "unicode": "",
+      "unicode": "🥥",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -288px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":kiwi:",
-      "unicode": "",
+      "unicode": "🥝",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tomato:",
-      "unicode": "",
+      "unicode": "🍅",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":eggplant:",
-      "unicode": "",
+      "unicode": "🍆",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":avocado:",
-      "unicode": "",
+      "unicode": "🥑",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":broccoli:",
-      "unicode": "",
+      "unicode": "🥦",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":leafy_green:",
-      "unicode": "",
+      "unicode": "🥬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cucumber:",
-      "unicode": "",
+      "unicode": "🥒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hot_pepper:",
-      "unicode": "",
+      "unicode": "🌶️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":corn:",
-      "unicode": "",
+      "unicode": "🌽",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":carrot:",
-      "unicode": "",
+      "unicode": "🥕",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":onion:",
-      "unicode": "",
+      "unicode": "🧅",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":garlic:",
-      "unicode": "",
+      "unicode": "🧄",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":potato:",
-      "unicode": "",
+      "unicode": "🥔",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sweet_potato:",
-      "unicode": "",
+      "unicode": "🍠",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":croissant:",
-      "unicode": "",
+      "unicode": "🥐",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bagel:",
-      "unicode": "",
+      "unicode": "🥯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bread:",
-      "unicode": "",
+      "unicode": "🍞",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":french_bread:",
-      "unicode": "",
+      "unicode": "🥖",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pretzel:",
-      "unicode": "",
+      "unicode": "🥨",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cheese:",
-      "unicode": "",
+      "unicode": "🧀",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":egg:",
-      "unicode": "",
+      "unicode": "🥚",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cooking:",
-      "unicode": "",
+      "unicode": "🍳",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pancakes:",
-      "unicode": "",
+      "unicode": "🥞",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":waffle:",
-      "unicode": "",
+      "unicode": "🧇",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bacon:",
-      "unicode": "",
+      "unicode": "🥓",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cut_of_meat:",
-      "unicode": "",
+      "unicode": "🥩",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":poultry_leg:",
-      "unicode": "",
+      "unicode": "🍗",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":meat_on_bone:",
-      "unicode": "",
+      "unicode": "🍖",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hotdog:",
-      "unicode": "",
+      "unicode": "🌭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hamburger:",
-      "unicode": "",
+      "unicode": "🍔",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fries:",
-      "unicode": "",
+      "unicode": "🍟",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pizza:",
-      "unicode": "",
+      "unicode": "🍕",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sandwich:",
-      "unicode": "",
+      "unicode": "🥪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":falafel:",
-      "unicode": "",
+      "unicode": "🧆",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":stuffed_flatbread:",
-      "unicode": "",
+      "unicode": "🥙",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":taco:",
-      "unicode": "",
+      "unicode": "🌮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":burrito:",
-      "unicode": "",
+      "unicode": "🌯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":salad:",
-      "unicode": "",
+      "unicode": "🥗",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shallow_pan_of_food:",
-      "unicode": "",
+      "unicode": "🥘",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":canned_food:",
-      "unicode": "",
+      "unicode": "🥫",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":spaghetti:",
-      "unicode": "",
+      "unicode": "🍝",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ramen:",
-      "unicode": "",
+      "unicode": "🍜",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -320px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":stew:",
-      "unicode": "",
+      "unicode": "🍲",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":curry:",
-      "unicode": "",
+      "unicode": "🍛",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sushi:",
-      "unicode": "",
+      "unicode": "🍣",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bento:",
-      "unicode": "",
+      "unicode": "🍱",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dumpling:",
-      "unicode": "",
+      "unicode": "🥟",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fried_shrimp:",
-      "unicode": "",
+      "unicode": "🍤",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":rice_ball:",
-      "unicode": "",
+      "unicode": "🍙",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":rice:",
-      "unicode": "",
+      "unicode": "🍚",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":rice_cracker:",
-      "unicode": "",
+      "unicode": "🍘",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fish_cake:",
-      "unicode": "",
+      "unicode": "🍥",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fortune_cookie:",
-      "unicode": "",
+      "unicode": "🥠",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":moon_cake:",
-      "unicode": "",
+      "unicode": "🥮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":oden:",
-      "unicode": "",
+      "unicode": "🍢",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dango:",
-      "unicode": "",
+      "unicode": "🍡",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shaved_ice:",
-      "unicode": "",
+      "unicode": "🍧",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ice_cream:",
-      "unicode": "",
+      "unicode": "🍨",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":icecream:",
-      "unicode": "",
+      "unicode": "🍦",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pie:",
-      "unicode": "",
+      "unicode": "🥧",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cupcake:",
-      "unicode": "",
+      "unicode": "🧁",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cake:",
-      "unicode": "",
+      "unicode": "🍰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":birthday:",
-      "unicode": "",
+      "unicode": "🎂",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":custard:",
-      "unicode": "",
+      "unicode": "🍮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":lollipop:",
-      "unicode": "",
+      "unicode": "🍭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":candy:",
-      "unicode": "",
+      "unicode": "🍬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chocolate_bar:",
-      "unicode": "",
+      "unicode": "🍫",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":popcorn:",
-      "unicode": "",
+      "unicode": "🍿",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":doughnut:",
-      "unicode": "",
+      "unicode": "🍩",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cookie:",
-      "unicode": "",
+      "unicode": "🍪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chestnut:",
-      "unicode": "",
+      "unicode": "🌰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":peanuts:",
-      "unicode": "",
+      "unicode": "🥜",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":honey_pot:",
-      "unicode": "",
+      "unicode": "🍯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":butter:",
-      "unicode": "",
+      "unicode": "🧈",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":milk:",
-      "unicode": "",
+      "unicode": "🥛",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":baby_bottle:",
-      "unicode": "",
+      "unicode": "🍼",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":coffee:",
-      "unicode": "",
+      "unicode": "☕",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tea:",
-      "unicode": "",
+      "unicode": "🍵",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mate:",
-      "unicode": "",
+      "unicode": "🧉",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cup_with_straw:",
-      "unicode": "",
+      "unicode": "🥤",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":beverage_box:",
-      "unicode": "",
+      "unicode": "🧃",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ice_cube:",
-      "unicode": "",
+      "unicode": "🧊",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sake:",
-      "unicode": "",
+      "unicode": "🍶",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":beer:",
-      "unicode": "",
+      "unicode": "🍺",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -352px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":beers:",
-      "unicode": "",
+      "unicode": "🍻",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":champagne_glass:",
-      "unicode": "",
+      "unicode": "🥂",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":wine_glass:",
-      "unicode": "",
+      "unicode": "🍷",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tumbler_glass:",
-      "unicode": "",
+      "unicode": "🥃",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cocktail:",
-      "unicode": "",
+      "unicode": "🍸",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tropical_drink:",
-      "unicode": "",
+      "unicode": "🍹",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":champagne:",
-      "unicode": "",
+      "unicode": "🍾",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":spoon:",
-      "unicode": "",
+      "unicode": "🥄",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fork_and_knife:",
-      "unicode": "",
+      "unicode": "🍴",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fork_knife_plate:",
-      "unicode": "",
+      "unicode": "🍽️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bowl_with_spoon:",
-      "unicode": "",
+      "unicode": "🥣",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":takeout_box:",
-      "unicode": "",
+      "unicode": "🥡",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chopsticks:",
-      "unicode": "",
+      "unicode": "🥢",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -384px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":salt:",
-      "unicode": "",
+      "unicode": "🧂",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -384px",
       "backgroundSize": "1344px 1152px"
