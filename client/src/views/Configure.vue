@@ -2,15 +2,20 @@
   <div>
     <div class="container">
       <h3>Configure Page</h3>
+      <Emoji />
     </div>
   </div>
 </template>
 
 <script>
 import api from "@/config/api.js"
+import Emoji from "@/components/Emoji.vue"
 
 export default {
   name: 'Configure',
+  components: {
+    Emoji,
+  },
   data: function () {
     return {
       channels: Array,

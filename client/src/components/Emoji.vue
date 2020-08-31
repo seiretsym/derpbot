@@ -36,7 +36,7 @@
             </button>
           </li>
           <li class="nav-item">
-            <button v-on:click="scroll" aria-label="Activity" title="Activity" data-index="5" type="button" class="nav-btn">
+            <button v-on:click="scroll" aria-label="Activities" title="Activities" data-index="5" type="button" class="nav-btn">
               <svg class="categoryIcon-1SvUHG" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M5.66487 5H18.3351C19.9078 5 21.2136 6.21463 21.3272 7.78329L21.9931 16.9774C22.0684 18.0165 21.287 18.9198 20.248 18.9951C20.2026 18.9984 20.1572 19 20.1117 19C18.919 19 17.8785 18.1904 17.5855 17.0342L17.0698 15H6.93015L6.41449 17.0342C6.12142 18.1904 5.08094 19 3.88826 19C2.84645 19 2.00189 18.1554 2.00189 17.1136C2.00189 17.0682 2.00354 17.0227 2.00682 16.9774L2.67271 7.78329C2.78632 6.21463 4.0921 5 5.66487 5ZM14.5 10C15.3284 10 16 9.32843 16 8.5C16 7.67157 15.3284 7 14.5 7C13.6716 7 13 7.67157 13 8.5C13 9.32843 13.6716 10 14.5 10ZM18.5 13C19.3284 13 20 12.3284 20 11.5C20 10.6716 19.3284 10 18.5 10C17.6716 10 17 10.6716 17 11.5C17 12.3284 17.6716 13 18.5 13ZM6.00001 9H4.00001V11H6.00001V13H8.00001V11H10V9H8.00001V7H6.00001V9Z" fill="currentColor"></path>
               </svg>
@@ -86,6 +86,90 @@
           <div aria-hidden="true" class="category-label bg-dark">People</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.people" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="3">
+          <div aria-hidden="true" class="category-label bg-dark">Nature</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.nature" :key="emoji.name">
+              <button :aria-label="emoji.unicode || 'derp'" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="4">
+          <div aria-hidden="true" class="category-label bg-dark">Food</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.food" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="5">
+          <div aria-hidden="true" class="category-label bg-dark">Activities</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.activities" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="6">
+          <div aria-hidden="true" class="category-label bg-dark">Travel</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.travel" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="7">
+          <div aria-hidden="true" class="category-label bg-dark">Objects</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.objects" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="8">
+          <div aria-hidden="true" class="category-label bg-dark">Symbols</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.symbols" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="emoji-category-label bg-dark" name="9">
+          <div aria-hidden="true" class="category-label bg-dark">Flags</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in emojis.flags" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
@@ -167,6 +251,10 @@ button.emoji-list {
 button.nav-btn:active,
 button.nav-btn:focus,
 button.nav-btn:link {
+    outline: none;
+}
+
+button.nav-btn:hover {
   color: green;
   border-color: green;
   outline: none;
@@ -186,10 +274,7 @@ svg {
   fill: white;
 }
 
-button.nav-btn:hover svg,
-button.nav-btn:active svg,
-button.nav-btn:focus svg,
-button.nav-btn:link svg {
+button.nav-btn:hover svg {
   fill: green !important;
 }
 
@@ -206,6 +291,13 @@ path {
 
 <script>
 const { people } = require("../emojis/people.json");
+const { nature } = require("../emojis/nature.json");
+const { food } = require("../emojis/food.json");
+const { activities } = require("../emojis/activities.json");
+const { objects } = require("../emojis/objects.json");
+const { flags } = require("../emojis/flags.json");
+const { symbols } = require("../emojis/symbols.json");
+const { travel } = require("../emojis/travel.json");
 
 export default {
   name: "Emoji",
@@ -216,6 +308,13 @@ export default {
     return {
       emojis: {
         people: people,
+        nature: nature,
+        food: food,
+        activities: activities,
+        objects: objects,
+        flags: flags,
+        symbols: symbols,
+        travel: travel
       }
     };
   },
@@ -237,11 +336,10 @@ export default {
     const section8 = document.getElementsByName("8")[0];
     const section9 = document.getElementsByName("9")[0];
     const categories = document.getElementsByClassName("nav-btn");
-    console.log(categories);
     const emojiList = document.getElementsByName("emoji-list")[0];
-    console.log(emojiList);
 
     emojiList.addEventListener("scroll", function() {
+      
       if (emojiList.scrollTop + 190 >= section1.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");

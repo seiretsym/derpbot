@@ -1,0 +1,872 @@
+{
+  "travel": [
+    {
+      "name": ":red_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":taxi:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":blue_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":trolleybus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":race_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":police_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ambulance:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fire_engine:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":minibus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":truck:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":articulated_lorry:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":tractor:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":auto_rickshaw:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":motor_scooter:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":motorcycle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":scooter:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bike:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":motorized_wheelchair:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":manual_wheelchair:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":rotating_light:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":oncoming_police_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":oncoming_bus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":oncoming_automobile:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":oncoming_taxi:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":aerial_tramway:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mountain_cableway:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":suspension_railway:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":railway_car:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":train:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mountain_railway:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":monorail:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bullettrain_side:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bullettrain_front:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":light_rail:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":steam_locomotive:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":train2:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":metro:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":tram:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":station:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":airplane:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":airplane_departure:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":airplane_arriving:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":airplane_small:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":seat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -448px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":satellite_orbital:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":rocket:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":flying_saucer:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":helicopter:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":canoe:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sailboat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":speedboat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":motorboat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cruise_ship:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ferry:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ship:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":anchor:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fuelpump:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":construction:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":vertical_traffic_light:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":traffic_light:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":busstop:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":map:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":moyai:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":statue_of_liberty:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":tokyo_tower:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":european_castle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":japanese_castle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":stadium:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ferris_wheel:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":roller_coaster:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":carousel_horse:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fountain:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":beach_umbrella:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":beach:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":island:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":desert:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":volcano:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mountain:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mountain_snow:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mount_fuji:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":camping:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":tent:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":house:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":house_with_garden:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":homes:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":house_abandoned:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -480px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":construction_site:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":factory:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":office:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":department_store:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":post_office:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":european_post_office:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hospital:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bank:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hotel:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":convenience_store:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":school:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":love_hotel:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":wedding:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":classical_building:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":church:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mosque:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hindu_temple:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":synagogue:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":kaaba:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":shinto_shrine:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":railway_track:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":motorway:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":japan:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":rice_scene:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":park:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sunrise:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sunrise_over_mountains:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":stars:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sparkler:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fireworks:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":city_sunset:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":city_dusk:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cityscape:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":night_with_stars:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":milky_way:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bridge_at_night:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -512px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":foggy:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -512px",
+      "backgroundSize": "1344px 1152px"
+    }
+  ]
+}

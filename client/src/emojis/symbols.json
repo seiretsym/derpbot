@@ -1,0 +1,2230 @@
+{
+  "symbols": [
+    {
+      "name": ":heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":orange_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":yellow_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":green_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":blue_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":purple_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":brown_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":broken_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heart_exclamation:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":two_hearts:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":revolving_hearts:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heartbeat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -672px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heartpulse:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sparkling_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cupid:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":gift_heart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heart_decoration:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":peace:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cross:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":star_and_crescent:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":om_symbol:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":wheel_of_dharma:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":star_of_david:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":six_pointed_star:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":menorah:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":yin_yang:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":orthodox_cross:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":place_of_worship:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ophiuchus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":aries:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":taurus:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":gemini:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cancer:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":leo:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":virgo:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":libra:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":scorpius:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sagittarius:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":capricorn:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":aquarius:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":pisces:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":id:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":atom:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":accept:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":radioactive:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":biohazard:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mobile_phone_off:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":vibration_mode:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u6709:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u7121:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u7533:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u55b6:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u6708:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":eight_pointed_black_star:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -704px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":vs:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_flower:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ideograph_advantage:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":secret:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":congratulations:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u5408:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u6e80:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u5272:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u7981:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":a:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":b:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ab:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cl:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":o2:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sos:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":x:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":o:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":octagonal_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_entry:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":name_badge:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_entry_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":100:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":anger:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hotsprings:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_pedestrians:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":do_not_litter:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_bicycles:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":non_potable_water:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":underage:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_mobile_phones:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_smoking:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":exclamation:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":grey_exclamation:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":question:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":grey_question:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bangbang:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":interrobang:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":low_brightness:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":high_brightness:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":part_alternation_mark:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":warning:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":children_crossing:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -736px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":trident:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fleur_de_lis:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":beginner:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":recycle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_check_mark:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u6307:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":chart:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sparkle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":eight_spoked_asterisk:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":negative_squared_cross_mark:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":globe_with_meridians:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":diamond_shape_with_a_dot_inside:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":m:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cyclone:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":zzz:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":atm:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":wc:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":wheelchair:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":parking:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":u7a7a:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sa:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":passport_control:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":customs:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":baggage_claim:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":left_luggage:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mens:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":womens:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":baby_symbol:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":restroom:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":put_litter_in_its_place:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cinema:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":signal_strength:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":koko:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":symbols:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":information_source:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":abc:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":abcd:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":capital_abcd:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ng:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ok:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":up:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":cool:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -768px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":new:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":free:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":zero:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":one:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":two:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":three:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":four:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":five:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":six:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":seven:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":eight:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":nine:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":keycap_ten:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":1234:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hash:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":asterisk:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":eject:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_forward:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":pause_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":play_pause:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":stop_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":record_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":track_next:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":track_previous:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":fast_forward:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":rewind:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_double_up:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_double_down:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_backward:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_up_small:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_down_small:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_right:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_left:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_up:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_down:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_upper_right:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_lower_right:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_lower_left:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_upper_left:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_up_down:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":left_right_arrow:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_right_hook:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -800px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":leftwards_arrow_with_hook:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_heading_up:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrow_heading_down:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":twisted_rightwards_arrows:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":repeat:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":repeat_one:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrows_counterclockwise:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":arrows_clockwise:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":musical_note:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":notes:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_plus_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_minus_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_division_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_multiplication_x:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":infinity:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_dollar_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":currency_exchange:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":tm:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":copyright:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":registered:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":wavy_dash:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":curly_loop:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":loop:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":end:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":back:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":on:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":top:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":soon:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":heavy_check_mark:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":ballot_box_with_check:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":radio_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":red_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":blue_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":brown_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":purple_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":green_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":yellow_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":orange_circle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":small_red_triangle:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":small_red_triangle_down:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -832px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":small_orange_diamond:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":small_blue_diamond:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":large_orange_diamond:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":large_blue_diamond:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_square_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_square_button:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_small_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_small_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_medium_small_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_medium_small_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_medium_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_medium_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_large_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":white_large_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":orange_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":blue_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":red_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":brown_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":purple_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":green_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":yellow_square:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":speaker:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mute:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":sound:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":loud_sound:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bell:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":no_bell:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mega:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":loudspeaker:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":speech_left:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":eye_in_speech_bubble:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":speech_balloon:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":thought_balloon:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":anger_right:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":spades:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clubs:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":hearts:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":diamonds:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":black_joker:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":flower_playing_cards:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":mahjong:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock1:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -864px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock2:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock3:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock4:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock5:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock6:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock7:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock8:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock9:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock10:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock11:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock12:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-320px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock130:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-352px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock230:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-384px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock330:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-416px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock430:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-448px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock530:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-480px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock630:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-512px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock730:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-544px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock830:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-576px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock930:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-608px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock1030:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-640px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock1130:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-672px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":clock1230:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-704px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":female_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-736px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":male_sign:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-768px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":medical_symbol:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-800px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_z:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-832px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_y:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_x:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_w:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_v:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_u:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_t:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_s:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_r:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_q:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_p:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1152px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_o:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1184px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_n:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1216px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_m:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1248px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_l:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1280px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_k:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1312px -896px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_j:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "0px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_i:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-32px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_h:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-64px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_g:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-96px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_f:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-128px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_e:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-160px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_d:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-192px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_c:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-224px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_b:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-256px -928px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":regional_indicator_a:",
+      "unicode": "",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-288px -928px",
+      "backgroundSize": "1344px 1152px"
+    }
+  ]
+}
