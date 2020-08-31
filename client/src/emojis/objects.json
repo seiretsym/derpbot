@@ -2,1421 +2,1421 @@
   "objects": [
     {
       "name": ":watch:",
-      "unicode": "",
+      "unicode": "⌚",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -512px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":iphone:",
-      "unicode": "",
+      "unicode": "📱",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -512px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":calling:",
-      "unicode": "",
+      "unicode": "📲",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -512px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":computer:",
-      "unicode": "",
+      "unicode": "💻",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -512px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":keyboard:",
-      "unicode": "",
+      "unicode": "⌨️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -512px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":desktop:",
-      "unicode": "",
+      "unicode": "🖥️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":printer:",
-      "unicode": "",
+      "unicode": "🖨️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mouse_three_button:",
-      "unicode": "",
+      "unicode": "🖱️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":trackball:",
-      "unicode": "",
+      "unicode": "🖲️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":joystick:",
-      "unicode": "",
+      "unicode": "🕹️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":compression:",
-      "unicode": "",
+      "unicode": "🗜️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":minidisc:",
-      "unicode": "",
+      "unicode": "💽",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":floppy_disk:",
-      "unicode": "",
+      "unicode": "💾",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":cd:",
-      "unicode": "",
+      "unicode": "💿",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dvd:",
-      "unicode": "",
+      "unicode": "📀",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":vhs:",
-      "unicode": "",
+      "unicode": "📼",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":camera:",
-      "unicode": "",
+      "unicode": "📷",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":camera_with_flash:",
-      "unicode": "",
+      "unicode": "📸",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":video_camera:",
-      "unicode": "",
+      "unicode": "📹",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":movie_camera:",
-      "unicode": "",
+      "unicode": "🎥",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":projector:",
-      "unicode": "",
+      "unicode": "📽️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":film_frames:",
-      "unicode": "",
+      "unicode": "🎞️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":telephone_receiver:",
-      "unicode": "",
+      "unicode": "📞",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":telephone:",
-      "unicode": "",
+      "unicode": "☎️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pager:",
-      "unicode": "",
+      "unicode": "📟",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fax:",
-      "unicode": "",
+      "unicode": "📠",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tv:",
-      "unicode": "",
+      "unicode": "📺",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":radio:",
-      "unicode": "",
+      "unicode": "📻",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":microphone2:",
-      "unicode": "",
+      "unicode": "🎙️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":level_slider:",
-      "unicode": "",
+      "unicode": "🎚️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":control_knobs:",
-      "unicode": "",
+      "unicode": "🎛️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":compass:",
-      "unicode": "",
+      "unicode": "🧭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":stopwatch:",
-      "unicode": "",
+      "unicode": "⏱️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":timer:",
-      "unicode": "",
+      "unicode": "⏲️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":alarm_clock:",
-      "unicode": "",
+      "unicode": "⏰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":clock:",
-      "unicode": "",
+      "unicode": "🕰️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hourglass:",
-      "unicode": "",
+      "unicode": "⌛",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hourglass_flowing_sand:",
-      "unicode": "",
+      "unicode": "⏳",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":satellite:",
-      "unicode": "",
+      "unicode": "📡",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":battery:",
-      "unicode": "",
+      "unicode": "🔋",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":electric_plug:",
-      "unicode": "",
+      "unicode": "🔌",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bulb:",
-      "unicode": "",
+      "unicode": "💡",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":flashlight:",
-      "unicode": "",
+      "unicode": "🔦",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":candle:",
-      "unicode": "",
+      "unicode": "🕯️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":fire_extinguisher:",
-      "unicode": "",
+      "unicode": "🧯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":oil:",
-      "unicode": "",
+      "unicode": "🛢️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":money_with_wings:",
-      "unicode": "",
+      "unicode": "💸",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -544px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dollar:",
-      "unicode": "",
+      "unicode": "💵",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":yen:",
-      "unicode": "",
+      "unicode": "💴",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":euro:",
-      "unicode": "",
+      "unicode": "💶",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pound:",
-      "unicode": "",
+      "unicode": "💷",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":moneybag:",
-      "unicode": "",
+      "unicode": "💰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":credit_card:",
-      "unicode": "",
+      "unicode": "💳",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":gem:",
-      "unicode": "",
+      "unicode": "💎",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":scales:",
-      "unicode": "",
+      "unicode": "⚖️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":toolbox:",
-      "unicode": "",
+      "unicode": "🧰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":wrench:",
-      "unicode": "",
+      "unicode": "🔧",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hammer:",
-      "unicode": "",
+      "unicode": "🔨",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hammer_pick:",
-      "unicode": "",
+      "unicode": "⚒️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tools:",
-      "unicode": "",
+      "unicode": "🛠️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pick:",
-      "unicode": "",
+      "unicode": "⛏️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":nut_and_bolt:",
-      "unicode": "",
+      "unicode": "🔩",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":gear:",
-      "unicode": "",
+      "unicode": "⚙️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bricks:",
-      "unicode": "",
+      "unicode": "🧱",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chains:",
-      "unicode": "",
+      "unicode": "⛓️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":magnet:",
-      "unicode": "",
+      "unicode": "🧲",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":gun:",
-      "unicode": "",
+      "unicode": "🔫",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bomb:",
-      "unicode": "",
+      "unicode": "💣",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":firecracker:",
-      "unicode": "",
+      "unicode": "🧨",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":axe:",
-      "unicode": "",
+      "unicode": "🪓",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":razor:",
-      "unicode": "",
+      "unicode": "🪒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":knife:",
-      "unicode": "",
+      "unicode": "🔪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dagger:",
-      "unicode": "",
+      "unicode": "🗡️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":crossed_swords:",
-      "unicode": "",
+      "unicode": "⚔️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shield:",
-      "unicode": "",
+      "unicode": "🛡️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":smoking:",
-      "unicode": "",
+      "unicode": "🚬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":coffin:",
-      "unicode": "",
+      "unicode": "⚰️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":urn:",
-      "unicode": "",
+      "unicode": "⚱️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":amphora:",
-      "unicode": "",
+      "unicode": "🏺",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":diya_lamp:",
-      "unicode": "",
+      "unicode": "🪔",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":crystal_ball:",
-      "unicode": "",
+      "unicode": "🔮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":prayer_beads:",
-      "unicode": "",
+      "unicode": "📿",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":nazar_amulet:",
-      "unicode": "",
+      "unicode": "🧿",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":barber:",
-      "unicode": "",
+      "unicode": "💈",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":alembic:",
-      "unicode": "",
+      "unicode": "⚗️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":telescope:",
-      "unicode": "",
+      "unicode": "🔭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":microscope:",
-      "unicode": "",
+      "unicode": "🔬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":hole:",
-      "unicode": "",
+      "unicode": "🕳️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":probing_cane:",
-      "unicode": "",
+      "unicode": "🦯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -576px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":stethoscope:",
-      "unicode": "",
+      "unicode": "🩺",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":adhesive_bandage:",
-      "unicode": "",
+      "unicode": "🩹",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pill:",
-      "unicode": "",
+      "unicode": "💊",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":syringe:",
-      "unicode": "",
+      "unicode": "💉",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":drop_of_blood:",
-      "unicode": "",
+      "unicode": "🩸",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dna:",
-      "unicode": "",
+      "unicode": "🧬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":microbe:",
-      "unicode": "",
+      "unicode": "🦠",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":petri_dish:",
-      "unicode": "",
+      "unicode": "🧫",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":test_tube:",
-      "unicode": "",
+      "unicode": "🧪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":thermometer:",
-      "unicode": "",
+      "unicode": "🌡️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chair:",
-      "unicode": "",
+      "unicode": "🪑",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":broom:",
-      "unicode": "",
+      "unicode": "🧹",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":basket:",
-      "unicode": "",
+      "unicode": "🧺",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":roll_of_paper:",
-      "unicode": "",
+      "unicode": "🧻",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":toilet:",
-      "unicode": "",
+      "unicode": "🚽",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":potable_water:",
-      "unicode": "",
+      "unicode": "🚰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shower:",
-      "unicode": "",
+      "unicode": "🚿",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bathtub:",
-      "unicode": "",
+      "unicode": "🛁",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bath:",
-      "unicode": "",
+      "unicode": "🛀",
       "url": "/assets/b50bb95edd6677c357af09e05637044e.png",
       "backgroundPosition": "-96px -768px",
       "backgroundSize": "320px 800px"
     },
     {
       "name": ":soap:",
-      "unicode": "",
+      "unicode": "🧼",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sponge:",
-      "unicode": "",
+      "unicode": "🧽",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":squeeze_bottle:",
-      "unicode": "",
+      "unicode": "🧴",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bellhop:",
-      "unicode": "",
+      "unicode": "🛎️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":key:",
-      "unicode": "",
+      "unicode": "🔑",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":key2:",
-      "unicode": "",
+      "unicode": "🗝️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":door:",
-      "unicode": "",
+      "unicode": "🚪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":couch:",
-      "unicode": "",
+      "unicode": "🛋️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bed:",
-      "unicode": "",
+      "unicode": "🛏️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":sleeping_accommodation:",
-      "unicode": "",
+      "unicode": "🛌",
       "url": "/assets/b50bb95edd6677c357af09e05637044e.png",
       "backgroundPosition": "-128px -768px",
       "backgroundSize": "320px 800px"
     },
     {
       "name": ":teddy_bear:",
-      "unicode": "",
+      "unicode": "🧸",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":frame_photo:",
-      "unicode": "",
+      "unicode": "🖼️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shopping_bags:",
-      "unicode": "",
+      "unicode": "🛍️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":shopping_cart:",
-      "unicode": "",
+      "unicode": "🛒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":gift:",
-      "unicode": "",
+      "unicode": "🎁",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":balloon:",
-      "unicode": "",
+      "unicode": "🎈",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":flags:",
-      "unicode": "",
+      "unicode": "🎏",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ribbon:",
-      "unicode": "",
+      "unicode": "🎀",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":confetti_ball:",
-      "unicode": "",
+      "unicode": "🎊",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":tada:",
-      "unicode": "",
+      "unicode": "🎉",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dolls:",
-      "unicode": "",
+      "unicode": "🎎",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":izakaya_lantern:",
-      "unicode": "",
+      "unicode": "🏮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":wind_chime:",
-      "unicode": "",
+      "unicode": "🎐",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":red_envelope:",
-      "unicode": "",
+      "unicode": "🧧",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":envelope:",
-      "unicode": "",
+      "unicode": "✉️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -608px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":envelope_with_arrow:",
-      "unicode": "",
+      "unicode": "📩",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":incoming_envelope:",
-      "unicode": "",
+      "unicode": "📨",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":e_mail:",
-      "unicode": "",
+      "unicode": "📧",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":love_letter:",
-      "unicode": "",
+      "unicode": "💌",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":inbox_tray:",
-      "unicode": "",
+      "unicode": "📥",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":outbox_tray:",
-      "unicode": "",
+      "unicode": "📤",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":package:",
-      "unicode": "",
+      "unicode": "📦",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":label:",
-      "unicode": "",
+      "unicode": "🏷️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mailbox_closed:",
-      "unicode": "",
+      "unicode": "📪",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mailbox:",
-      "unicode": "",
+      "unicode": "📫",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mailbox_with_mail:",
-      "unicode": "",
+      "unicode": "📬",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mailbox_with_no_mail:",
-      "unicode": "",
+      "unicode": "📭",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":postbox:",
-      "unicode": "",
+      "unicode": "📮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":postal_horn:",
-      "unicode": "",
+      "unicode": "📯",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":scroll:",
-      "unicode": "",
+      "unicode": "📜",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":page_with_curl:",
-      "unicode": "",
+      "unicode": "📃",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":page_facing_up:",
-      "unicode": "",
+      "unicode": "📄",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bookmark_tabs:",
-      "unicode": "",
+      "unicode": "📑",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":receipt:",
-      "unicode": "",
+      "unicode": "🧾",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bar_chart:",
-      "unicode": "",
+      "unicode": "📊",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chart_with_upwards_trend:",
-      "unicode": "",
+      "unicode": "📈",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":chart_with_downwards_trend:",
-      "unicode": "",
+      "unicode": "📉",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":notepad_spiral:",
-      "unicode": "",
+      "unicode": "🗒️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":calendar_spiral:",
-      "unicode": "",
+      "unicode": "🗓️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":calendar:",
-      "unicode": "",
+      "unicode": "📆",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":date:",
-      "unicode": "",
+      "unicode": "📅",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":wastebasket:",
-      "unicode": "",
+      "unicode": "🗑️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":card_index:",
-      "unicode": "",
+      "unicode": "📇",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":card_box:",
-      "unicode": "",
+      "unicode": "🗃️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-896px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ballot_box:",
-      "unicode": "",
+      "unicode": "🗳️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-928px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":file_cabinet:",
-      "unicode": "",
+      "unicode": "🗄️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-960px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":clipboard:",
-      "unicode": "",
+      "unicode": "📋",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-992px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":file_folder:",
-      "unicode": "",
+      "unicode": "📁",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1024px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":open_file_folder:",
-      "unicode": "",
+      "unicode": "📂",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1056px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":dividers:",
-      "unicode": "",
+      "unicode": "🗂️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1088px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":newspaper2:",
-      "unicode": "",
+      "unicode": "🗞️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1120px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":newspaper:",
-      "unicode": "",
+      "unicode": "📰",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1152px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":notebook:",
-      "unicode": "",
+      "unicode": "📓",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1184px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":notebook_with_decorative_cover:",
-      "unicode": "",
+      "unicode": "📔",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1216px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":ledger:",
-      "unicode": "",
+      "unicode": "📒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1248px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":closed_book:",
-      "unicode": "",
+      "unicode": "📕",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1280px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":green_book:",
-      "unicode": "",
+      "unicode": "📗",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-1312px -640px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":blue_book:",
-      "unicode": "",
+      "unicode": "📘",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "0px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":orange_book:",
-      "unicode": "",
+      "unicode": "📙",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-32px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":books:",
-      "unicode": "",
+      "unicode": "📚",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-64px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":book:",
-      "unicode": "",
+      "unicode": "📖",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-96px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":bookmark:",
-      "unicode": "",
+      "unicode": "🔖",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-128px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":safety_pin:",
-      "unicode": "",
+      "unicode": "🧷",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-160px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":link:",
-      "unicode": "",
+      "unicode": "🔗",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-192px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":paperclip:",
-      "unicode": "",
+      "unicode": "📎",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-224px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":paperclips:",
-      "unicode": "",
+      "unicode": "🖇️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-256px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":triangular_ruler:",
-      "unicode": "",
+      "unicode": "📐",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-288px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":straight_ruler:",
-      "unicode": "",
+      "unicode": "📏",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-320px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":abacus:",
-      "unicode": "",
+      "unicode": "🧮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-352px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pushpin:",
-      "unicode": "",
+      "unicode": "📌",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-384px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":round_pushpin:",
-      "unicode": "",
+      "unicode": "📍",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-416px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":scissors:",
-      "unicode": "",
+      "unicode": "✂️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-448px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pen_ballpoint:",
-      "unicode": "",
+      "unicode": "🖊️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-480px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pen_fountain:",
-      "unicode": "",
+      "unicode": "🖋️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-512px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":black_nib:",
-      "unicode": "",
+      "unicode": "✒️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-544px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":paintbrush:",
-      "unicode": "",
+      "unicode": "🖌️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-576px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":crayon:",
-      "unicode": "",
+      "unicode": "🖍️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-608px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pencil:",
-      "unicode": "",
+      "unicode": "📝",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-640px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":pencil2:",
-      "unicode": "",
+      "unicode": "✏️",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-672px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mag:",
-      "unicode": "",
+      "unicode": "🔍",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-704px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":mag_right:",
-      "unicode": "",
+      "unicode": "🔎",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-736px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":lock_with_ink_pen:",
-      "unicode": "",
+      "unicode": "🔏",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-768px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":closed_lock_with_key:",
-      "unicode": "",
+      "unicode": "🔐",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-800px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":lock:",
-      "unicode": "",
+      "unicode": "🔒",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-832px -672px",
       "backgroundSize": "1344px 1152px"
     },
     {
       "name": ":unlock:",
-      "unicode": "",
+      "unicode": "🔓",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
       "backgroundPosition": "-864px -672px",
       "backgroundSize": "1344px 1152px"
