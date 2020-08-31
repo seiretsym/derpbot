@@ -694,6 +694,69 @@
       "backgroundSize": "1344px 1152px"
     },
     {
+      "name": ":banjo:",
+      "unicode": "🪕",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-864px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":guitar:",
+      "unicode": "🎸",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-896px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":violin:",
+      "unicode": "🎻",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-928px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":game_die:",
+      "unicode": "🎲",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-960px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":chess_pawn:",
+      "unicode": "♟️",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-992px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":dart:",
+      "unicode": "🎯",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1024px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":kite:",
+      "unicode": "🪁",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1056px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":yo_yo:",
+      "unicode": "🪀",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1088px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
+      "name": ":bowling:",
+      "unicode": "🎳",
+      "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
+      "backgroundPosition": "-1120px -416px",
+      "backgroundSize": "1344px 1152px"
+    },
+    {
       "name": ":video_game:",
       "unicode": "🎮",
       "url": "/assets/7b423a7d402beedfecb0bb81f9704953.png",
