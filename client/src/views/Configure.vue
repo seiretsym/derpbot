@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <h3>Configure Page</h3>
-      <Emoji />
+      <Emoji :guild="guild"/>
     </div>
   </div>
 </template>
@@ -18,15 +18,28 @@ export default {
   },
   data: function () {
     return {
-      channels: Array,
+      channels: [],
+      guild: {},
     }
   },
   mounted() {
-    api.getGuildChannels(this.$route.query.guild).then(({data}) => {
+    api.getGuildChannels(this.$route.query.guild).then(({ data }) => {
       if (data === "nope") {
         window.location.replace("/");
       } else {
-        return this.channels = data
+        return (this.channels = data);
+      }
+    })
+    api.getGuildEmojis(this.$route.query.guild).then(({ data }) => {
+      if (data === "nope") {
+        window.location.replace("/");
+      } else {
+        const guildInfo = {
+          name: data.name,
+          emojis: data.emojis
+        }
+        console.log(data.emojis[0])
+        return (this.guild = guildInfo);
       }
     })
   }

@@ -4,7 +4,7 @@
       <nav class="emoji-categories navbar mb-2">
         <ul class="navbar-nav flex-row mx-auto">
           <li class="nav-item">
-            <button v-on:click="scroll" aria-label="Server Emojis" title="Server Emojis" data-index="1" type="button" class="nav-btn selected">
+            <button v-on:click="scroll" :aria-label="guild.name" :title="guild.name" data-index="1" type="button" class="nav-btn selected">
               <svg class="disabled" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <g transform="translate(2.000000, 1.000000)">
                   <rect id="Rectangle" x="8" y="0" width="3" height="21" rx="1.5"></rect>
@@ -81,7 +81,15 @@
     <div class="d-flex flex-column overflow-auto" name="emoji-list" style="height: 295px;">
       <section class="emoji-category">
         <div class="emoji-category-label" name="1">
-          <div aria-hidden="true" class="category-label bg-secondary">Server Emojis</div>
+          <div aria-hidden="true" class="category-label bg-secondary">{{ guild.name }}</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in guild.emojis" :key="emoji.name">
+              <button :aria-label="emoji.id" class="emoji-list-item" :title="emoji.name" type="button">
+                <img v-if="emoji.animated" height="32" width="32" :src="'https://cdn.discordapp.com/emojis/' + emoji.id + '.gif?v=1'"/>
+                <img v-else height="32" width="32" :src="'https://cdn.discordapp.com/emojis/' + emoji.id + '.png?v=1'">
+              </button>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="emoji-category">
@@ -342,7 +350,7 @@ const { travel } = require("../emojis/travel.json");
 export default {
   name: "Emoji",
   props: {
-    guild_emojis: Array,
+    guild: {},
   },
   data: function() {
     return {
@@ -383,7 +391,7 @@ export default {
       }
     }
   },
-  mounted() {
+  mounted() { 
     let search = [];
     search = search.concat(people, nature, food, activities, objects, flags, symbols, travel)
     this.search = search;

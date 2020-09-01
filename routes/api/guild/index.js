@@ -18,4 +18,20 @@ router.route("/getChannels/:id")
       })
   })
 
+router.route("/getEmojis/:id")
+  .get((req, res) => {
+    axios.get(`https://discord.com/api/guilds/${req.params.id}`, {
+      headers: {
+        "Authorization": `Bot ${process.env.BOT_TOKEN}`
+      }
+    })
+      .then(({ data }) => {
+        res.json(data);
+      })
+      .catch(err => {
+        console.log(err);
+        res.json(err);
+      })
+  })
+
 module.exports = router;
