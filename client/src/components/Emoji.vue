@@ -1,5 +1,5 @@
 <template>
-  <section class="emoji-body bg-dark border border-secondary">
+  <section class="emoji-body bg-secondary border border-dark d-flex flex-column">
     <div>
       <nav class="emoji-categories navbar mb-2">
         <ul class="navbar-nav flex-row mx-auto">
@@ -38,7 +38,7 @@
           <li class="nav-item">
             <button v-on:click="scroll" aria-label="Activities" title="Activities" data-index="5" type="button" class="nav-btn">
               <svg class="categoryIcon-1SvUHG" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M5.66487 5H18.3351C19.9078 5 21.2136 6.21463 21.3272 7.78329L21.9931 16.9774C22.0684 18.0165 21.287 18.9198 20.248 18.9951C20.2026 18.9984 20.1572 19 20.1117 19C18.919 19 17.8785 18.1904 17.5855 17.0342L17.0698 15H6.93015L6.41449 17.0342C6.12142 18.1904 5.08094 19 3.88826 19C2.84645 19 2.00189 18.1554 2.00189 17.1136C2.00189 17.0682 2.00354 17.0227 2.00682 16.9774L2.67271 7.78329C2.78632 6.21463 4.0921 5 5.66487 5ZM14.5 10C15.3284 10 16 9.32843 16 8.5C16 7.67157 15.3284 7 14.5 7C13.6716 7 13 7.67157 13 8.5C13 9.32843 13.6716 10 14.5 10ZM18.5 13C19.3284 13 20 12.3284 20 11.5C20 10.6716 19.3284 10 18.5 10C17.6716 10 17 10.6716 17 11.5C17 12.3284 17.6716 13 18.5 13ZM6.00001 9H4.00001V11H6.00001V13H8.00001V11H10V9H8.00001V7H6.00001V9Z" fill="currentColor"></path>
+                <path d="M5.66487 5H18.3351C19.9078 5 21.2136 6.21463 21.3272 7.78329L21.9931 16.9774C22.0684 18.0165 21.287 18.9198 20.248 18.9951C20.2026 18.9984 20.1572 19 20.1117 19C18.919 19 17.8785 18.2254 17.5855 17.0342L17.0698 15H6.93015L6.41449 17.0342C6.12142 18.2254 5.08094 19 3.88826 19C2.84645 19 2.00189 18.1554 2.00189 17.1136C2.00189 17.0682 2.00354 17.0227 2.00682 16.9774L2.67271 7.78329C2.78632 6.21463 4.0921 5 5.66487 5ZM14.5 10C15.3284 10 16 9.32843 16 8.5C16 7.67157 15.3284 7 14.5 7C13.6716 7 13 7.67157 13 8.5C13 9.32843 13.6716 10 14.5 10ZM18.5 13C19.3284 13 20 12.3284 20 11.5C20 10.6716 19.3284 10 18.5 10C17.6716 10 17 10.6716 17 11.5C17 12.3284 17.6716 13 18.5 13ZM6.00001 9H4.00001V11H6.00001V13H8.00001V11H10V9H8.00001V7H6.00001V9Z" fill="currentColor"></path>
               </svg>
             </button>
           </li>
@@ -75,15 +75,18 @@
         </ul>
       </nav>
     </div>
-    <div class="d-flex flex-column overflow-auto" name="emoji-list" style="height: 330px;">
+    <div class="search">
+      <input type="text" v-on:input="handleChange" placeholder="search term" class="bg-dark text-light border-1 outline-secondary mb-2 mx-2 d-block rounded"/>
+    </div>
+    <div class="d-flex flex-column overflow-auto" name="emoji-list" style="height: 295px;">
       <section class="emoji-category">
-        <div class="emoji-category-label bg-dark" name="1">
-          <div aria-hidden="true" class="category-label bg-dark">Server Emojis</div>
+        <div class="emoji-category-label" name="1">
+          <div aria-hidden="true" class="category-label bg-secondary">Server Emojis</div>
         </div>
       </section>
       <section class="emoji-category">
-        <div class="emoji-category-label bg-dark" name="2">
-          <div aria-hidden="true" class="category-label bg-dark">People</div>
+        <div class="emoji-category-label bg-secondary" name="2">
+          <div aria-hidden="true" class="category-label bg-secondary">People</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.people" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -94,8 +97,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="3">
-          <div aria-hidden="true" class="category-label bg-dark">Nature</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label secondary" name="3">
+          <div aria-hidden="true" class="category-label bg-secondary">Nature</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.nature" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -106,8 +111,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="4">
-          <div aria-hidden="true" class="category-label bg-dark">Food</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="4">
+          <div aria-hidden="true" class="category-label bg-secondary">Food</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.food" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -118,8 +125,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="5">
-          <div aria-hidden="true" class="category-label bg-dark">Activities</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="5">
+          <div aria-hidden="true" class="category-label bg-secondary">Activities</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.activities" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -130,8 +139,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="6">
-          <div aria-hidden="true" class="category-label bg-dark">Travel</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="6">
+          <div aria-hidden="true" class="category-label bg-secondary">Travel</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.travel" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -142,8 +153,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="7">
-          <div aria-hidden="true" class="category-label bg-dark">Objects</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="7">
+          <div aria-hidden="true" class="category-label bg-secondary">Objects</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.objects" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -154,8 +167,10 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="8">
-          <div aria-hidden="true" class="category-label bg-dark">Symbols</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="8">
+          <div aria-hidden="true" class="category-label bg-secondary">Symbols</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.symbols" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
@@ -166,10 +181,28 @@
             </li>
           </ul>
         </div>
-        <div class="emoji-category-label bg-dark" name="9">
-          <div aria-hidden="true" class="category-label bg-dark">Flags</div>
+      </section>
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="9">
+          <div aria-hidden="true" class="category-label bg-secondary">Flags</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.flags" :key="emoji.name">
+              <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+                <div
+                  :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
+                ></div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="d-none flex-column overflow-auto" name="search-list" style="height: 295px;">
+      <section class="emoji-category">
+        <div class="emoji-category-label bg-secondary" name="search">
+          <div aria-hidden="true" class="category-label bg-secondary">Search Results</div>
+          <ul class="d-flex emoji-list flex-row flex-wrap">
+            <li v-for="emoji in filtered" :key="emoji.name">
               <button :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
@@ -184,6 +217,13 @@
 </template>
 
 <style scoped>
+
+input {
+  display: inline-block !important;
+  width: 297px;
+  border: 1px #000 solid;
+}
+
 .emoji-list {
   list-style-type: none;
   padding: 0px;
@@ -315,7 +355,9 @@ export default {
         flags: flags,
         symbols: symbols,
         travel: travel
-      }
+      },
+      search: Array,
+      filtered: Array
     };
   },
   methods: {
@@ -324,8 +366,22 @@ export default {
       const element = document.getElementsByName(index)[0];
       element.scrollIntoView({ behavior: "smooth" });
     },
+    handleChange: function(event) {
+      const { value } = event.target
+      if (value !== "") {
+        document.getElementsByName("emoji-list")[0].classList.replace("d-flex", "d-none");
+        document.getElementsByName("search-list")[0].classList.replace("d-none", "d-flex");
+        this.filtered = this.search.filter(emoji => emoji.name.indexOf(value) !== -1);
+      } else {
+        document.getElementsByName("search-list")[0].classList.replace("d-flex", "d-none");
+        document.getElementsByName("emoji-list")[0].classList.replace("d-none", "d-flex");
+      }
+    }
   },
   mounted() {
+    let search = [];
+    search = search.concat(people, nature, food, activities, objects, flags, symbols, travel)
+    this.search = search;
     const section1 = document.getElementsByName("1")[0];
     const section2 = document.getElementsByName("2")[0];
     const section3 = document.getElementsByName("3")[0];
@@ -340,55 +396,55 @@ export default {
 
     emojiList.addEventListener("scroll", function() {
 
-      if (emojiList.scrollTop + 190 >= section1.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section1.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[0].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section2.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section2.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[1].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section3.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section3.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[2].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section4.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section4.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[3].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section5.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section5.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[4].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section6.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section6.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[5].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section7.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section7.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[6].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section8.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section8.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })
         categories[7].classList.add("selected");
       }
-      if (emojiList.scrollTop + 190 >= section9.offsetTop) {
+      if (emojiList.scrollTop + 225 >= section9.offsetTop) {
         categories.forEach(category => {
           category.classList.remove("selected");
         })

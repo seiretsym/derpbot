@@ -6,5 +6,8 @@ export default {
   },
   getGuildChannels: function (guild_id) {
     return axios.get(`/api/guild/getChannels/${guild_id}`)
+  },
+  getGuildEmojis: function (guild_id) {
+    return axios.get(`/api/guild/getEmojis/${guild_id}`);
   }
 }
