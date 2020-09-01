@@ -61,4 +61,23 @@ router.route("/getChannelCategory/:id")
     }
   })
 
+router.route("/getRoles/:id")
+  .get((req, res) => {
+    if (req.session.user) {
+      axios.get(`https://discord.com/api/guilds/${req.params.id}/roles`, {
+        headers: {
+          "Authorization": `Bot ${process.env.BOT_TOKEN}`
+        }
+      })
+        .then(({ data }) => {
+          res.json(data.filter(role => role.name !== "@everyone"))
+        })
+        .catch(err => {
+          res.json(err);
+        })
+    } else {
+      res.json("nope")
+    }
+  })
+
 module.exports = router;

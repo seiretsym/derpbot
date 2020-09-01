@@ -12,5 +12,8 @@ export default {
   },
   getCategoryName: function (channel_id) {
     return axios.get(`/api/guild/getChannelCategory/${channel_id}`)
+  },
+  getGuildRoles: function (guild_id) {
+    return axios.get(`/api/guild/getRoles/${guild_id}`)
   }
 }

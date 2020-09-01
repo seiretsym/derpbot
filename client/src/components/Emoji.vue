@@ -95,7 +95,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">People</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.people" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -109,7 +109,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Nature</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.nature" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -123,7 +123,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Food</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.food" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -137,7 +137,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Activities</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.activities" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -151,7 +151,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Travel</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.travel" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -165,7 +165,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Objects</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.objects" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -179,7 +179,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Symbols</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.symbols" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -193,7 +193,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Flags</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in emojis.flags" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -209,7 +209,7 @@
           <div aria-hidden="true" class="category-label bg-secondary">Search Results</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in filtered" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
