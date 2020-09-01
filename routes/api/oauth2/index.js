@@ -54,7 +54,7 @@ router.route("/discord-botadd")
           .create(guild)
           .then(data => {
             console.log("Guild added: ", data);
-            res.sendFile(path.join(__dirname, "../../../pages/redirect2.html"));
+            res.sendFile(path.join(__dirname, "../../../pages/redirect.html"))
           })
           .catch(err => {
             res.json(err);

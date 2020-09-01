@@ -18,13 +18,13 @@ const ChannelSchema = new Schema({
     type: String,
     required: true,
   },
-  title: {
-    type: String
-  },
   message: {
     type: String,
   },
   reactions: [{
+    type: Number
+  }],
+  roles: [{
     type: Number
   }]
 })

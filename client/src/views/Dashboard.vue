@@ -8,7 +8,7 @@
             <div v-else height="40" width="40" class="border border-secondary px-3" style="border-radius: 25px"></div>
             <div class="my-auto ml-3">{{ guild.name }}</div>
             <div v-if="guild.added" class="ml-auto">
-              <a class="btn btn-info border border-info" :href="'/configure?guild='+guild.id">
+              <a class="btn btn-info border border-info" :href="'/plugins?guild='+guild.id">
               Configure
               </a>
             </div>

@@ -11,7 +11,7 @@ router.route("/getGuilds")
         }
       }).then(async ({ data }) => {
         data = data.filter(guild => (((guild.permissions & 0x8) === 8) || ((guild.permissions & 0x20) === 32)))
-        const newdata = Promise.all(data.map(async guild => {
+        Promise.all(data.map(async guild => {
           const data = Object.assign({}, guild);
           const match = await db.Guild.find({ guild_id: guild.id })
           if (match.length > 0) {
@@ -24,7 +24,6 @@ router.route("/getGuilds")
           })
       })
     } else {
-      console.log("not authed")
       res.json("nope")
     }
   })

@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Main from "../views/Main.vue";
 import Dashboard from "../views/Dashboard.vue";
-import Configure from "../views/Configure.vue";
+import Plugins from "../views/Plugins.vue";
 
 Vue.use(VueRouter);
 
@@ -21,9 +21,9 @@ const routes = [
     component: Dashboard,
   },
   {
-    path: "/configure",
-    name: "Configure",
-    component: Configure,
+    path: "/plugins",
+    name: "Plugins",
+    component: Plugins,
   }
 ];
 
