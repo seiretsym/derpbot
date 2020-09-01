@@ -371,7 +371,12 @@ export default {
       if (value !== "") {
         document.getElementsByName("emoji-list")[0].classList.replace("d-flex", "d-none");
         document.getElementsByName("search-list")[0].classList.replace("d-none", "d-flex");
-        this.filtered = this.search.filter(emoji => emoji.name.indexOf(value) !== -1);
+        this.filtered = this.search.filter(emoji => {
+          const term = emoji.name.replace(/_/g, " ")
+          if (term.indexOf(value.toLowerCase()) > -1) {
+            return emoji;
+          }
+        });
       } else {
         document.getElementsByName("search-list")[0].classList.replace("d-flex", "d-none");
         document.getElementsByName("emoji-list")[0].classList.replace("d-none", "d-flex");
