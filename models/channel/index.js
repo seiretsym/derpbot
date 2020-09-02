@@ -16,16 +16,23 @@ const ChannelSchema = new Schema({
   },
   channel_id: {
     type: String,
-    required: true,
+    required: true
   },
   message: {
     type: String,
+    required: true
+  },
+  message_id: {
+    type: String,
+    required: true
   },
   reactions: [{
-    type: Number
+    type: Number,
+    required: true
   }],
   roles: [{
-    type: Number
+    type: Number,
+    required: true
   }]
 })
 

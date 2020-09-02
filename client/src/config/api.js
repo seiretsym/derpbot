@@ -15,5 +15,8 @@ export default {
   },
   getGuildRoles: function (guild_id) {
     return axios.get(`/api/guild/getRoles/${guild_id}`)
+  },
+  createReaction: function (data) {
+    return axios.post(`/api/bot/createReaction`, data)
   }
 }

@@ -178,6 +178,21 @@ export default {
     saveEvent: function(event) {
       event.preventDefault();
       console.log("need to work on this")
+      const name = this.channels[this.channels.findIndex(channel => channel.id === this.newEvent.channel)].name;
+      const data = {
+        guild_id: this.$route.query.guild,
+        name: name,
+        channel_id: this.newEvent.channel,
+        message:  this.newEvent.message,
+        // message_id: get this later from backend
+        reactions: [...this.newEvent.reactions],
+        roles: [...this.newEvent.roles]
+      }
+      api
+        .createReaction(data)
+        .then(data => {
+          console.log(data);
+        })
     },
     selectChannel: function(event) {
       return (this.newEvent.channel = event.target.value);

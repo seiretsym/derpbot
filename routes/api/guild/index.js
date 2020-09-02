@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const axios = require("axios");
-const guildController = require("../../../controllers/guildController");
+const db = require("../../../models");
 require("dotenv").config();
 
 router.route("/getChannels/:id")
