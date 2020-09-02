@@ -10,7 +10,6 @@ const headers = {
 
 router.route("/createReaction")
   .post(async (req, res) => {
-    console.log(req.body);
     // api call to create message, then retrieve message id for saving into db
     axios.post(`https://discord.com/api/channels/${req.body.channel_id}/messages`, {
       content: req.body.message
@@ -33,14 +32,33 @@ router.route("/createReaction")
             }
           }, 1000 * i)
         })
+        // convert emojis if necessary
+        const newData = { ...req.body }
+        newData.reactions = newData.reactions.map(reaction => {
+          if (isNaN(reaction)) {
+            return encodeURIComponent(reaction);
+          }
+        })
         // save data to db
         db.Channel.create({
           message_id: data.id,
-          ...req.body
+          ...newData
         })
           .then(data => {
-            console.log(data)
-            res.json(data);
+            db.Guild
+              .findOneAndUpdate({ guild_id: data.guild_id }, { $push: { channels: data._id } }, { new: true })
+              .populate("channels")
+              .then(data => {
+                res.json(data);
+              })
+              .catch(err => {
+                console.log(err);
+                res.json(err);
+              })
+          })
+          .catch(err => {
+            console.log(err);
+            res.json(err);
           })
       })
   })

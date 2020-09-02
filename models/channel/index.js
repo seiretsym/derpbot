@@ -6,8 +6,7 @@ const Schema = mongoose.Schema
 // create schema
 const ChannelSchema = new Schema({
   guild_id: {
-    type: Schema.Types.ObjectId,
-    ref: "Guild",
+    type: String,
     required: true,
   },
   name: {
@@ -27,11 +26,11 @@ const ChannelSchema = new Schema({
     required: true
   },
   reactions: [{
-    type: Number,
+    type: String,
     required: true
   }],
   roles: [{
-    type: Number,
+    type: String,
     required: true
   }]
 })

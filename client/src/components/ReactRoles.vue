@@ -131,6 +131,7 @@ export default {
       showMessageWidget: false,
       showReactionWidget: false,
       selectedReactions: [],
+      savedReactions: [],
       guild: {},
       roles: Array,
       channels: Array,
@@ -177,7 +178,6 @@ export default {
     },
     saveEvent: function(event) {
       event.preventDefault();
-      console.log("need to work on this")
       const name = this.channels[this.channels.findIndex(channel => channel.id === this.newEvent.channel)].name;
       const data = {
         guild_id: this.$route.query.guild,
@@ -190,8 +190,12 @@ export default {
       }
       api
         .createReaction(data)
-        .then(data => {
-          console.log(data);
+        .then(() => {
+          window.location.reload();
+        })
+        .catch(() => {
+          // might need to work on this later
+          console.log("something broke. refresh and try again.")
         })
     },
     selectChannel: function(event) {
@@ -284,6 +288,10 @@ export default {
       } else {
         return (this.roles = data);
       }
+    })
+
+    api.getChannelReactions(this.$route.query.guild).then(({data}) => {
+      return (this.savedReactions = data);
     })
   }
 }
