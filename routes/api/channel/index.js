@@ -14,4 +14,16 @@ router.route("/getReactions/:id")
       })
   })
 
+router.route("/:id")
+  .delete((req, res) => {
+    db.Channel
+      .deleteOne({ _id: req.params.id })
+      .then(() => {
+        res.json("deleted");
+      })
+      .catch(err => {
+        res.json(err);
+      })
+  })
+
 module.exports = router;

@@ -41,8 +41,7 @@
       </div>
       <div class="form-group mb-0">
         <hr class="bg-secondary">
-        <button v-on:click="saveEvent" id="save" class="btn-dark border-0 text-light py-2 px-5 rounded ml-auto disabled">Save</button>
-        <button v-on:click="cancelBtn" class="btn-dark border-0 text-light py-2 px-5 ml-3 rounded">Cancel</button>
+        <button v-on:click="saveEvent" id="save" class="btn-dark border-0 text-light p-2 px-5 rounded ml-auto disabled">Save</button>
       </div>
     </form>
   </div>
@@ -144,8 +143,7 @@ export default {
   },
   props: {
     guild_id: String,
-    show: Boolean,
-    cancelBtn: Function
+    show: Boolean
   },
   watch: {
     newEvent: {
@@ -199,7 +197,7 @@ export default {
       api
         .createReaction(data)
         .then(() => {
-          window.location.replace(`/plugins?guild=${this.$route.query.guild}`)
+          window.location.reload();
         })
         .catch(() => {
           // might need to work on this later

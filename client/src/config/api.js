@@ -21,5 +21,8 @@ export default {
   },
   createReaction: function (data) {
     return axios.post(`/api/bot/createReaction`, data)
+  },
+  deleteChannelReactions: function (id) {
+    return axios.delete(`/api/channel/${id}`)
   }
 }
