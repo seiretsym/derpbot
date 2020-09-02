@@ -209,7 +209,11 @@
           <div aria-hidden="true" class="category-label bg-secondary">Search Results</div>
           <ul class="d-flex emoji-list flex-row flex-wrap">
             <li v-for="emoji in filtered" :key="emoji.name">
-              <button v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
+              <button v-if="emoji.available" v-on:click="handleClick" :aria-label="':' + emoji.name + ':'" class="emoji-list-item" :title="emoji.name" :data-id="emoji.id" type="button">
+                <img v-if="emoji.animated" class="no-click" height="32" width="32" :src="'https://cdn.discordapp.com/emojis/' + emoji.id + '.gif?v=1'"/>
+                <img v-else class="no-click" height="32" width="32" :src="'https://cdn.discordapp.com/emojis/' + emoji.id + '.png?v=1'">
+              </button>
+              <button v-else v-on:click="handleClick" :aria-label="emoji.unicode" :data-id="emoji.unicode" class="emoji-list-item" :title="emoji.name" type="button">
                 <div class="no-click"
                   :style="'background-image: url(https://discord.com' + emoji.url + '); background-position: ' + emoji.backgroundPosition + '; background-size: ' + emoji.backgroundSize + '; width: 32px; height: 32px;'"
                 ></div>
@@ -361,7 +365,7 @@ const { travel } = require("../emojis/travel.json");
 export default {
   name: "Emoji",
   props: {
-    guild: {},
+    guild: Object,
     show: Boolean,
     classes: String,
     handleClick: Function
@@ -483,6 +487,14 @@ export default {
         const emojiList = document.getElementsByName("emoji-list")[0];
         emojiList.removeEventListener("scroll", this.setEvents);
       }
+    },
+    guild: {
+      handler(event) {
+        if (event.emojis) {
+         this.search = [...event.emojis, ...this.search]
+        }
+      },
+      deep: true
     }
   },
   mounted() { 
