@@ -18,7 +18,7 @@
           <p>Work in progress. Check back later.</p>
         </div>
         <div v-else-if="display==='react'" class="w-100">
-          <ReactRoles :guild_id="this.$route.query.guild" />
+          <ReactRoles :guild_id="this.$route.query.guild" :back="changeView"/>
         </div>
       </section>
     </div>
@@ -27,7 +27,7 @@
 
 <script>
 import Card from "@/components/Card.vue"
-import ReactRoles from "@/components/ReactRoles.vue"
+import ReactRoles from "@/views/ReactRoles.vue"
 
 export default {
   name: 'Plugins',
