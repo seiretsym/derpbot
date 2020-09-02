@@ -237,8 +237,16 @@ export default {
       const button = event.target;
       const shortcut = button.getAttribute("aria-label");
       const textBox = document.querySelector("#channelMessageInput");
-      textBox.value += `${shortcut}`;
-      this.newEvent.message += `${shortcut}`;
+      const src = button.children[0].getAttribute("src")
+      const id = button.getAttribute("data-id")
+      const type = src.slice(src.length-7, src.length-4)
+      if (type === "gif") {
+        textBox.value += `<a${shortcut}${id}>`;
+        this.newEvent.message += `<a${shortcut}${id}>`;
+      } else {
+        textBox.value += `<${shortcut}${id}>`;
+        this.newEvent.message += `<${shortcut}${id}>`;
+      }
       this.showMessageWidget = false;
     }
   },

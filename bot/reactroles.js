@@ -17,6 +17,7 @@ client.once("ready", async () => {
   const guild = await client.guilds.fetch(guildId);
   const channel = await client.channels.fetch(channelId);
   const message = await channel.messages.fetch(messageId);
+
   client.guilds.fetch(guildId).then(guild => {
     client.channels.fetch(channelId).then(channel => {
       channel.messages.fetch(messageId).then(message => {
