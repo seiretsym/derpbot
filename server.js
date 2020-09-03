@@ -95,6 +95,11 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// for heroku & react
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/dist"));
+}
+
 // session config
 app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 
