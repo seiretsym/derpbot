@@ -13,9 +13,9 @@ const client = new Discord.Client();
 function startBot(data) {
   // login with bot
   client.login(process.env.BOT_TOKEN)
-
   // event listener: bot is logged in
   client.once("ready", () => {
+    console.log(`Derp Bot servicing ${data.length} channels`)
     data.forEach(async event => {
       const guild = await client.guilds.fetch(event.guild_id)
       const channel = await client.channels.fetch(event.channel_id)
@@ -106,31 +106,29 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // routing
 // bot routes
 app.get("/api/bot/start", (req, res) => {
-  client.destroy().then(() => {
-    db.Channel.find({}).then(data => {
-      if (data.length > 0) {
-        // start the damn bot
-        startBot(data);
-        console.log("Starting Bot")
-        res.json("bot starting")
-      } else {
-        console.log("Cannot start bot without any channels to service.")
-      }
-    })
+  client.destroy()
+  db.Channel.find({}).then(data => {
+    if (data.length > 0) {
+      // start the damn bot
+      startBot(data);
+      console.log("Starting Bot")
+      res.json("bot starting")
+    } else {
+      console.log("Cannot start bot without any channels to service.")
+    }
   })
 })
 app.delete("/api/bot/restart", (req, res) => {
-  client.destroy().then(() => {
-    db.Channel.find({}).then(data => {
-      if (data.length > 0) {
-        // start the damn bot
-        startBot(data);
-        console.log("Restarting Bot")
-        res.json("bot restarting")
-      } else {
-        console.log("Cannot start bot without any channels to service.")
-      }
-    })
+  client.destroy()
+  db.Channel.find({}).then(data => {
+    if (data.length > 0) {
+      // start the damn bot
+      startBot(data);
+      console.log("Restarting Bot")
+      res.json("bot restarting")
+    } else {
+      console.log("Cannot start bot without any channels to service.")
+    }
   })
 })
 app.use(routes);
