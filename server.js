@@ -14,7 +14,7 @@ function startBot(data) {
   // login with bot
   client.login(process.env.BOT_TOKEN)
   // event listener: bot is logged in
-  client.once("ready", () => {
+  client.on("ready", () => {
     console.log(`Derp Bot servicing ${data.length} channels`)
     data.forEach(async event => {
       const guild = await client.guilds.fetch(event.guild_id)
