@@ -69,7 +69,7 @@ router.route("/getRoles/:id")
         }
       })
         .then(({ data }) => {
-          res.json(data.filter(role => role.name !== "@everyone"))
+          res.json(data.filter(role => (role.name !== "@everyone" && !role.managed)))
         })
         .catch(err => {
           res.json(err);

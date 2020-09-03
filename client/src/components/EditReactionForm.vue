@@ -1,18 +1,15 @@
 <template>
-  <div class="container bg-darker p-3 rounded d-none" id="reactionForm">
+  <div class="bg-darker p-3 rounded d-block mb-3" :id="'edit-' + savedReaction._id">
     <form>
       <div class="form-group">
-      <label for="channel" class="font-weight-bold">Select a Channel</label>
-      <select v-on:change="selectChannel" class="bg-dark btn-dark text-light form-control">
-        <option value="none" disabled selected>Choose...</option>
-        <option v-for="channel in channels" :key="channel.id" :value="channel.id">
-          #{{ channel.name }} in {{ channel.category }}
-        </option>
-      </select>
+        <label for="channel" class="font-weight-bold">Channel</label>
+        <div class="form-group bg-dark rounded p-3">
+          #{{ this.savedReaction.name }}
+        </div>
       </div>
       <div class="form-group message">
         <label for="message" class="font-weight-bold">Enter Message ( {{ newEvent.message.length }} / 1800 )</label>
-        <textarea v-on:input="updateMessage" id="channelMessageInput" maxlength="1800" class="btn-dark bg-dark form-control" rows="5"/>
+        <textarea v-on:input="updateMessage" :id="'channelMessageInput-' + savedReaction._id" :value="newEvent.message" maxlength="1800" class="btn-dark bg-dark form-control" rows="5"/>
         <button v-on:click="toggleMessage" class="sticky-right">
           <svg aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
             <path d="M12 2C6.477 2 2 6.477 2 12C2 17.522 6.477 22 12 22C17.523 22 22 17.522 22 12C22 6.477 17.522 2 12 2ZM16.293 6.293L17.707 7.706L16.414 9L17.707 10.293L16.293 11.706L13.586 9L16.293 6.293ZM6.293 7.707L7.707 6.294L10.414 9L7.707 11.707L6.293 10.294L7.586 9L6.293 7.707ZM12 19C9.609 19 7.412 17.868 6 16.043L7.559 14.486C8.555 15.92 10.196 16.831 12 16.831C13.809 16.831 15.447 15.92 16.443 14.481L18 16.04C16.59 17.867 14.396 19 12 19Z" fill="currentColor"></path>
@@ -31,8 +28,9 @@
             <img v-if="reaction.type === 'img'" :src="reaction.src" height="32" width="32"/>
             <div v-if="reaction.type === 'div'" :style="reaction.style"/>
             <select v-on:change="selectRole" :data-id="i" class="bg-darker ml-3 btn-dark p-1 text-light rounded">
-              <option value="none" disabled selected>Select Role</option>
-              <option v-for="role in roles" :key="role.id" :value="role.id">{{ role.name }}</option>
+              <!-- <option v-if="(newEvent.roles[i] !== ' ') && (roles.length > 0)" :value="newEvent.roles[i]" disabled selected>{{ roles[roles.findIndex(role => role.id === newEvent.roles[i])].name }}</option> -->
+              <option :value="newEvent.roles[i]" disabled>Select a Role</option>
+              <option v-for="role in roles" :key="role.id" :value="role.id" :selected="selected(i, role.id)">{{ role.name }}</option>
             </select>
             <p class="my-auto ml-3">Please make sure that Derp Bot's role is listed above the roles that are being assigned by Derp Bot.</p>
             <button v-on:click="removeReaction" :data-id="i" class="sticky-remove">&times;</button>
@@ -41,7 +39,7 @@
       </div>
       <div class="form-group mb-0">
         <hr class="bg-secondary">
-        <button v-on:click="saveEvent" id="save" class="btn-dark border-0 text-light p-2 px-5 rounded ml-auto disabled">Save</button>
+        <button v-on:click="saveEvent" :id="'save-' + savedReaction._id" class="btn-dark border-0 text-light p-2 px-5 rounded ml-auto disabled">Save</button>
       </div>
     </form>
   </div>
@@ -118,9 +116,17 @@ textarea {
 <script>
 import api from "@/config/api.js";
 import EmojiWidget from "@/components/Emoji.vue";
+import { activities } from "@/emojis/activities.json";
+import { flags } from "@/emojis/flags.json";
+import { food } from "@/emojis/food.json";
+import { nature } from "@/emojis/nature.json";
+import { objects } from "@/emojis/objects.json";
+import { people } from "@/emojis/people.json";
+import { symbols } from "@/emojis/symbols.json";
+import { travel } from "@/emojis/travel.json";
 
 export default {
-  name: 'ReactionForm',
+  name: 'EditReactionForm',
   components: {
     EmojiWidget
   },
@@ -129,38 +135,44 @@ export default {
       showMessageWidget: false,
       showReactionWidget: false,
       selectedReactions: [],
-      savedReactions: [],
+      emojis: Array,
       guild: {},
       roles: Array,
-      channels: Array,
       newEvent: {
         channel: String,
         message: "",
         reactions: [],
         roles: []
+      },
+      selected: function(i, id) {
+      if (this.newEvent.roles[i] === id) {
+        return "selected"
+      } else {
+        return false
+      }
       }
     }
   },
   props: {
-    guild_id: String,
-    show: Boolean
+    show: Boolean,
+    savedReaction: Object,
   },
   watch: {
     newEvent: {
       handler(event) {
         if (event.channel !== "" && event.message !== "" && event.roles.find(role => role === " ") === undefined && event.reactions.length > 0) {
-            document.querySelector("#save").classList.remove("disabled");
+            document.querySelector(`#save-${this.savedReaction._id}`).classList.remove("disabled");
         } else {
-            document.querySelector("#save").classList.add("disabled");
+            document.querySelector(`#save-${this.savedReaction._id}`).classList.add("disabled");
         }
       },
       deep: true
     },
     show: function(event) {
       if (event) {
-        document.querySelector("#reactionForm").classList.replace("d-none", "d-block")
+        document.querySelector(`#edit-${this.savedReaction._id}`).classList.replace("d-none", "d-block")
       } else {
-        document.querySelector("#reactionForm").classList.replace("d-block", "d-none")
+        document.querySelector(`#edit-${this.savedReaction._id}`).classList.replace("d-block", "d-none")
       }
     } 
   },
@@ -184,25 +196,22 @@ export default {
     },
     saveEvent: function(event) {
       event.preventDefault();
-      const name = this.channels[this.channels.findIndex(channel => channel.id === this.newEvent.channel)].name;
       const data = {
         guild_id: this.$route.query.guild,
-        name: name,
+        name: this.savedReaction.name,
         channel_id: this.newEvent.channel,
         message:  this.newEvent.message,
-        // message_id: get this later from backend
+        message_id: this.savedReaction.message_id,
         reactions: [...this.newEvent.reactions],
         roles: [...this.newEvent.roles]
       }
-      api
-        .createReaction(data)
-        .then(() => {
-          window.location.reload();
-        })
-        .catch(() => {
-          // might need to work on this later
-          console.log("something broke. refresh and try again.")
-        })
+      api.editReaction(this.savedReaction._id, data)
+      .then(data => {
+        console.log(data);
+      })
+      .catch(err => {
+        console.log(err);
+      })
     },
     selectChannel: function(event) {
       return (this.newEvent.channel = event.target.value);
@@ -246,7 +255,7 @@ export default {
       event.preventDefault();
       const button = event.target;
       const shortcut = button.getAttribute("aria-label");
-      const textBox = document.querySelector("#channelMessageInput");
+      const textBox = document.querySelector(`#channelMessageInput-${this.savedReaction._id}`);
       const src = button.children[0].getAttribute("src")
       const id = button.getAttribute("data-id")
       if (src) {
@@ -266,21 +275,6 @@ export default {
     }
   },
   mounted() {
-    api.getGuildChannels(this.$route.query.guild).then(({ data }) => {
-      if (data === "nope") {
-        window.location.replace("/");
-      } else {
-        Promise.all(data.map(async channel => {
-          const name = await api.getCategoryName(channel.parent_id);
-          const temp = {...channel};
-          temp.category = name.data;
-          return Promise.resolve(temp);
-        })).then(data => {
-          return (this.channels = data);
-        })
-      }
-    })
-
     api.getGuildEmojis(this.$route.query.guild).then(({ data }) => {
       if (data === "nope") {
         window.location.replace("/");
@@ -289,6 +283,28 @@ export default {
           name: data.name,
           emojis: data.emojis
         }
+        this.emojis = [...activities, ...flags, ...food, ...nature, ...objects, ...people, ...symbols, ...travel, ...data.emojis]
+        this.newEvent.message = this.savedReaction.message;
+        this.newEvent.reactions = this.savedReaction.reactions;
+        this.newEvent.roles = this.savedReaction.roles;
+        this.newEvent.channel = this.savedReaction.channel_id;
+        this.savedReaction.reactions.forEach(reaction => {
+          const newReaction = {};
+          if (isNaN(reaction)) {
+            const reactionInfo = this.emojis.find(emoji => emoji.unicode === decodeURIComponent(reaction))
+            newReaction.type = "div",
+            newReaction.style = `background-image: url('https://discord.com${reactionInfo.url}'); background-position: ${reactionInfo.backgroundPosition}; background-size: ${reactionInfo.backgroundSize}; width: 32px; height: 32px;`
+          } else {
+            const reactionInfo = this.emojis.find(emoji => emoji.id === reaction)
+            newReaction.type = "img"
+            if (reactionInfo.animated) {
+              newReaction.src = "https://cdn.discordapp.com/emojis/" + reactionInfo.id + ".gif?v=1"
+            } else {
+              newReaction.src = "https://cdn.discordapp.com/emojis/" + reactionInfo.id + ".png?v=1"
+            }
+          }
+          this.selectedReactions.push(newReaction);
+        })
         return (this.guild = guildInfo);
       }
     })

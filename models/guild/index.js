@@ -16,11 +16,7 @@ const GuildSchema = new Schema({
   guild_id: {
     type: String,
     required: true,
-  },
-  channels: [{
-    type: Schema.Types.ObjectId,
-    ref: "Channel"
-  }],
+  }
 })
 
 // create model

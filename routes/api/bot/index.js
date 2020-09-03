@@ -37,6 +37,8 @@ router.route("/createReaction")
         newData.reactions = newData.reactions.map(reaction => {
           if (isNaN(reaction)) {
             return encodeURIComponent(reaction);
+          } else {
+            return reaction;
           }
         })
         // save data to db

@@ -24,5 +24,8 @@ export default {
   },
   deleteChannelReactions: function (id) {
     return axios.delete(`/api/channel/${id}`)
+  },
+  editReaction: function (id, data) {
+    return axios.put(`/api/channel/editReaction/${id}`, data)
   }
 }

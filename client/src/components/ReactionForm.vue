@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-darker p-3 rounded d-none" id="reactionForm">
+  <div class="bg-darker p-3 rounded d-none" id="reactionForm">
     <form>
       <div class="form-group">
       <label for="channel" class="font-weight-bold">Select a Channel</label>
