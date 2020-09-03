@@ -50,8 +50,8 @@ router.route("/createReaction")
             db.Guild
               .findOneAndUpdate({ guild_id: data.guild_id }, { $push: { channels: data._id } }, { new: true })
               .populate("channels")
-              .then(data => {
-                res.json(data);
+              .then(() => {
+                res.redirect("/api/bot/start")
               })
               .catch(err => {
                 console.log(err);
