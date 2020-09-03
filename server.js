@@ -106,29 +106,31 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // routing
 // bot routes
 app.get("/api/bot/start", (req, res) => {
-  client.destroy();
-  db.Channel.find({}).then(data => {
-    if (data.length > 0) {
-      // start the damn bot
-      startBot(data);
-      console.log("Starting Bot")
-      res.json("bot starting")
-    } else {
-      console.log("Attempting to start bot without any channels to service.")
-    }
+  client.destroy().then(() => {
+    db.Channel.find({}).then(data => {
+      if (data.length > 0) {
+        // start the damn bot
+        startBot(data);
+        console.log("Starting Bot")
+        res.json("bot starting")
+      } else {
+        console.log("Cannot start bot without any channels to service.")
+      }
+    })
   })
 })
 app.delete("/api/bot/restart", (req, res) => {
-  client.destroy();
-  db.Channel.find({}).then(data => {
-    if (data.length > 0) {
-      // start the damn bot
-      startBot(data);
-      console.log("Restarting Bot")
-      res.json("bot restarting")
-    } else {
-      console.log("No services to start.")
-    }
+  client.destroy().then(() => {
+    db.Channel.find({}).then(data => {
+      if (data.length > 0) {
+        // start the damn bot
+        startBot(data);
+        console.log("Restarting Bot")
+        res.json("bot restarting")
+      } else {
+        console.log("Cannot start bot without any channels to service.")
+      }
+    })
   })
 })
 app.use(routes);

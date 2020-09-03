@@ -46,17 +46,8 @@ router.route("/createReaction")
           message_id: data.id,
           ...newData
         })
-          .then(data => {
-            db.Guild
-              .findOneAndUpdate({ guild_id: data.guild_id }, { $push: { channels: data._id } }, { new: true })
-              .populate("channels")
-              .then(() => {
-                res.redirect("/api/bot/start")
-              })
-              .catch(err => {
-                console.log(err);
-                res.json(err);
-              })
+          .then(() => {
+            res.redirect("/api/bot/start")
           })
           .catch(err => {
             console.log(err);
