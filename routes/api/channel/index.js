@@ -94,7 +94,7 @@ router.route("/:id")
     db.Channel
       .deleteOne({ _id: req.params.id })
       .then(() => {
-        res.json("deleted");
+        res.redirect("../bot/restart")
       })
       .catch(err => {
         res.json(err);

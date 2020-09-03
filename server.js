@@ -105,14 +105,14 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 
 // routing
 // bot routes
-app.post("/api/bot/start", (req, res) => {
+app.get("/api/bot/start", (req, res) => {
   db.Channel.find({}).then(data => {
     // start the damn bot
     startBot(data);
     res.json("bot starting")
   })
 })
-app.delete("/api/bot/restart", (req, res) => {
+app.get("/api/bot/restart", (req, res) => {
   client.destroy();
   db.Channel.find({}).then(data => {
     // start the damn bot
@@ -139,6 +139,10 @@ app.listen(PORT, function () {
   db.Channel
     .find({})
     .then(data => {
-      startBot(data);
+      if (data.length > 0) {
+        startBot(data);
+      } else {
+        console.log("No bot services found.")
+      }
     })
 });
