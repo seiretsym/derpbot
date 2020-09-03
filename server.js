@@ -106,6 +106,7 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // routing
 // bot routes
 app.get("/api/bot/start", (req, res) => {
+  client.destroy();
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
       // start the damn bot
