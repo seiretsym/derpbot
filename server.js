@@ -107,17 +107,27 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // bot routes
 app.get("/api/bot/start", (req, res) => {
   db.Channel.find({}).then(data => {
-    // start the damn bot
-    startBot(data);
-    res.json("bot starting")
+    if (data.length > 0) {
+      // start the damn bot
+      startBot(data);
+      console.log("Starting Bot")
+      res.json("bot starting")
+    } else {
+      console.log("Attempting to start bot without any channels to service.")
+    }
   })
 })
 app.get("/api/bot/restart", (req, res) => {
   client.destroy();
   db.Channel.find({}).then(data => {
-    // start the damn bot
-    startBot(data);
-    res.json("bot restarting")
+    if (data.length > 0) {
+      // start the damn bot
+      startBot(data);
+      console.log("Restarting Bot")
+      res.json("bot restarting")
+    } else {
+      console.log("No services to start.")
+    }
   })
 })
 app.use(routes);
