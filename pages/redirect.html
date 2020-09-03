@@ -1,8 +1,10 @@
 <script>
   if (window.opener) {
-    window.opener.location.replace("./dashboard");
+    window.opener.location.replace(
+      "https://discord-derpbot.herokuapp.com/dashboard"
+    );
     window.close();
   } else {
-    window.location.replace("./dashboard");
+    window.location.replace("https://discord-derpbot.herokuapp.com/dashboard");
   }
 </script>
