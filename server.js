@@ -7,10 +7,12 @@ const Discord = require("discord.js");
 const db = require("./models");
 
 // bot functions
-const client = new Discord.Client();
+let client;
 
 // start the bot
 function startBot(data) {
+  // shutdown just incase
+  client = new Discord.Client();
   // login with bot
   client.login(process.env.BOT_TOKEN)
   // event listener: bot is logged in
@@ -106,7 +108,7 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // routing
 // bot routes
 app.get("/api/bot/start", (req, res) => {
-  client.destroy()
+  client.destroy();
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
       // start the damn bot
@@ -119,7 +121,7 @@ app.get("/api/bot/start", (req, res) => {
   })
 })
 app.delete("/api/bot/restart", (req, res) => {
-  client.destroy()
+  client.destroy();
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
       // start the damn bot
