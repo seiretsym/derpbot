@@ -19,6 +19,7 @@ function startBot(data) {
   client.on("ready", () => {
     console.log(`Derp Bot servicing ${data.length} channels`)
     data.forEach(async event => {
+      // grab specific guild, channel, and message via IDs
       const guild = await client.guilds.fetch(event.guild_id)
       const channel = await client.channels.fetch(event.channel_id)
       const message = await channel.messages.fetch(event.message_id)
@@ -34,17 +35,23 @@ function startBot(data) {
         }
       })
 
+      // create event listeners for reactions
       client.on("messageReactionAdd", handleAddReaction)
       client.on("messageReactionRemove", handleRemoveReaction)
 
+      // function for adding user role
       function handleAddReaction(reaction, user) {
+        // check if reaction was for message sent by derp bot
         if (reaction.message.id === message.id) {
+          // check if reaction is a custom emoji
           if (reaction._emoji.id) {
             for (let i = 0; i < roles.length; i++) {
               if (reaction._emoji.id === reactions[i]) {
+                // if all checks out, grab user that reacted
                 guild.members.fetch(user.id).then(member => {
+                  // and set user's role
                   member.roles.add(roles[i]).catch(err => {
-                    console.log("error");
+                    console.log("error adding user role for custom emoji");
                   });
                 })
               }
@@ -54,7 +61,7 @@ function startBot(data) {
               if (reaction._emoji.name === reactions[i]) {
                 guild.members.fetch(user.id).then(member => {
                   member.roles.add(roles[i]).catch(err => {
-                    console.log("error");
+                    console.log("error adding user role for default emoji");
                   });
                 })
               }
@@ -63,6 +70,7 @@ function startBot(data) {
         }
       }
 
+      // does the samething as handleAddReaction, but removing roles
       function handleRemoveReaction(reaction, user) {
         if (reaction.message.id === message.id) {
           if (reaction._emoji.id) {
@@ -70,7 +78,7 @@ function startBot(data) {
               if (reaction._emoji.id === reactions[i]) {
                 guild.members.fetch(user.id).then(member => {
                   member.roles.remove(roles[i]).catch(err => {
-                    console.log(err);
+                    console.log("Error removing user role for custom emoji");
                   });
                 })
               }
@@ -80,7 +88,7 @@ function startBot(data) {
               if (reaction._emoji.name === reactions[i]) {
                 guild.members.fetch(user.id).then(member => {
                   member.roles.remove(roles[i]).catch(err => {
-                    console.log(err);
+                    console.log("Error removing user role for default emoji");
                   });
                 })
               }
@@ -152,6 +160,7 @@ app.listen(PORT, function () {
   db.Channel
     .find({})
     .then(data => {
+      // check if there are actually any channels to serve before starting bot
       if (data.length > 0) {
         startBot(data);
       } else {

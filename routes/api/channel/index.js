@@ -5,6 +5,7 @@ require("dotenv").config();
 
 router.route("/getReactions/:id")
   .get((req, res) => {
+    // get server's saved reactions from database
     db.Channel.find({
       guild_id: req.params.id
     })
@@ -14,10 +15,11 @@ router.route("/getReactions/:id")
       .catch(err => {
         console.log("##### get /api/channel/getReactions/:id");
         console.log(err);
-        res.json("Error retrieving emojis");
+        res.json("Error retrieving emojis from db");
       })
   })
 
+// not being used at the moment
 router.route("/editReaction/:id")
   .put((req, res) => {
     console.log(req.body)
@@ -91,8 +93,11 @@ router.route("/editReaction/:id")
     res.json("still testing")
   })
 
+// delete a reactrole set up on a server, doesn't delete the bot message, though.
 router.route("/:id")
   .delete((req, res) => {
+    // remove configuration from database,
+    // so the bot stops service for that reactrole setup
     db.Channel
       .deleteOne({ _id: req.params.id })
       .then(() => {
