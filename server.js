@@ -11,7 +11,8 @@ let client;
 
 // start the bot
 function startBot(data) {
-  // shutdown just incase
+  // create a new client to listen on
+  // should probably handle this per server (work to do)
   client = new Discord.Client();
   // login with bot
   client.login(process.env.BOT_TOKEN)
@@ -105,7 +106,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// for heroku & react
+// for heroku & vue
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/dist"));
 }
@@ -116,6 +117,7 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // routing
 // bot routes
 app.get("/api/bot/start", (req, res) => {
+  // destroy old client
   client.destroy();
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
@@ -129,6 +131,7 @@ app.get("/api/bot/start", (req, res) => {
   })
 })
 app.delete("/api/bot/restart", (req, res) => {
+  // destroy old client
   client.destroy();
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
