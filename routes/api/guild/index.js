@@ -14,7 +14,9 @@ router.route("/getChannels/:id")
           res.json(data.filter(channel => channel.type === 0))
         })
         .catch(err => {
+          console.log("##### get /api/channel/getChannels/:id");
           console.log(err);
+          res.json("Error retrieving server channels");
         })
     } else {
       res.json("nope")
@@ -33,8 +35,9 @@ router.route("/getEmojis/:id")
           res.json(data);
         })
         .catch(err => {
+          console.log("##### get /api/channel/getEmojis/:id");
           console.log(err);
-          res.json(err);
+          res.json("Error retrieving emojis");
         })
     } else {
       res.json("nope");
@@ -53,7 +56,9 @@ router.route("/getChannelCategory/:id")
           res.json(data.name);
         })
         .catch(err => {
-          res.json(err);
+          console.log("##### get /api/channel/:id");
+          console.log(err);
+          res.json("Error retrieving Channel Info");
         })
     } else {
       res.json("nope")
@@ -72,7 +77,9 @@ router.route("/getRoles/:id")
           res.json(data.filter(role => (role.name !== "@everyone" && !role.managed)))
         })
         .catch(err => {
-          res.json(err);
+          console.log(`##### get discord.com/api/guilds/${req.params.id}/roles`);
+          console.log(err);
+          res.json("Error retrieving Discord Server Roles");
         })
     } else {
       res.json("nope")

@@ -94,9 +94,13 @@ export default {
             })
             return (this.guild = guildInfo);
           }
-        })
+        }).catch(err=>{
+        console.log(err)
+      })
         return (this.roles = data);
       }
+    }).catch(err=>{
+      console.log(err);
     })
   }
 }

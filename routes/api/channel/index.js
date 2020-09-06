@@ -12,7 +12,9 @@ router.route("/getReactions/:id")
         res.json(data);
       })
       .catch(err => {
-        res.json(err);
+        console.log("##### get /api/channel/getReactions/:id");
+        console.log(err);
+        res.json("Error retrieving emojis");
       })
   })
 
@@ -97,7 +99,9 @@ router.route("/:id")
         res.redirect("../bot/restart")
       })
       .catch(err => {
-        res.json(err);
+        console.log("##### delete /api/channel/:id");
+        console.log(err);
+        res.json("Error deleting message");
       })
   })
 

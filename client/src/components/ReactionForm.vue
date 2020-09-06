@@ -279,8 +279,12 @@ export default {
           return Promise.resolve(temp);
         })).then(data => {
           return (this.channels = data);
+        }).catch(err => {
+          console.log(err)
         })
       }
+    }).catch(err => {
+      console.log(err)
     })
 
     api.getGuildEmojis(this.$route.query.guild).then(({ data }) => {
@@ -293,6 +297,8 @@ export default {
         }
         return (this.guild = guildInfo);
       }
+    }).catch(err=>{
+      console.log(err)
     })
 
     api.getGuildRoles(this.$route.query.guild).then(({ data }) => {
@@ -301,6 +307,8 @@ export default {
       } else {
         return (this.roles = data);
       }
+    }).catch(err => {
+      console.log(err);
     })
   }
 }

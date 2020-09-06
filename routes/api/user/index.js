@@ -22,6 +22,10 @@ router.route("/getGuilds")
           .then(data => {
             res.json(data);
           })
+      }).catch(err => {
+        console.log("##### get discord/api/users/@me/guilds");
+        console.log(err);
+        res.json("Error retrieving user's servers");
       })
     } else {
       res.json("nope")

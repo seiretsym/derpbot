@@ -54,6 +54,11 @@ router.route("/createReaction")
             res.json(err);
           })
       })
+      .catch(err => {
+        console.log("##### /createReaction error")
+        console.log(err);
+        res.json("Cannot Create Reaction")
+      })
   })
 
 module.exports = router;

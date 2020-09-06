@@ -29,9 +29,15 @@ router.route("/discord-callback")
       }).then(({ data }) => {
         req.session.user.id = data.id;
         res.sendFile(path.join(__dirname, "../../../pages/redirect.html"));
+      }).catch(err => {
+        console.log("##### get discord/api/users/@me");
+        console.log(err);
+        res.json("Error retrieving user info");
       })
     }).catch(err => {
-      res.json(err);
+      console.log("##### get /api/oauth2/discord-callback");
+      console.log(err);
+      res.json("Error authenticating");
     })
   })
 
@@ -57,10 +63,14 @@ router.route("/discord-botadd")
             res.sendFile(path.join(__dirname, "../../../pages/redirect.html"))
           })
           .catch(err => {
-            res.json(err);
+            console.log("##### db.Guild.create");
+            console.log(err);
+            res.json("Error saving discord server info");
           })
       }).catch(err => {
+        console.log(`##### get discord/api/guilds/${guild_id}`);
         console.log(err);
+        res.json("Error retrieving discord server info");
       });
   })
 

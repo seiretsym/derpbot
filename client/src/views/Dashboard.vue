@@ -52,6 +52,8 @@ export default {
       } else {
         return this.guilds = data
       }
+    }).catch(err => {
+      console.log(err);
     })
   }
 }

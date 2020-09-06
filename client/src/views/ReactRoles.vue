@@ -96,6 +96,8 @@ export default {
         return temp;
       })
       return (this.savedReactions = data);
+    }).catch(err => {
+      console.log(err);
     })
   }
 }
