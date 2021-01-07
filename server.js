@@ -132,7 +132,7 @@ app.get("/api/bot/start", (req, res) => {
     }
   })
 })
-app.delete("/api/bot/restart", (req, res) => {
+app.put("/api/bot/restart", (req, res) => {
   // destroy old client
   client.destroy();
   db.Channel.find({}).then(data => {

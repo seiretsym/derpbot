@@ -40,6 +40,7 @@ router.route("/editReaction/:id")
         }, {
           $set: req.body
         }).then(() => {
+          res.json("updated");
           axios.get(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}`, headers).then(({ data }) => {
             const existingReactions = data.reactions;
             const newReactions = req.body.reactions;
