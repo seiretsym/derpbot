@@ -19,7 +19,7 @@ router.route("/createReaction")
         req.body.reactions.map((reaction, i) => {
           setTimeout(function () {
             if (isNaN(reaction)) {
-              const encoded = encodeURIComponent(reaction)
+              console.log("encoded", encoded)
               axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${data.id}/reactions/${encoded}/@me`, {}, headers)
                 .catch(err => {
                   console.log(err)
@@ -30,7 +30,7 @@ router.route("/createReaction")
                   console.log(err)
                 })
             }
-          }, 1000 * i)
+          }, 2000 * i)
         })
         // convert emojis if necessary
         const newData = { ...req.body }

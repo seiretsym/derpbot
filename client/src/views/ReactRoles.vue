@@ -6,10 +6,10 @@
         <div :data-id="message._id" class="form-group bg-darker p-3 rounded">
           <div class="d-flex">
             <div class="my-auto">#{{ message.name }}</div>
-            <button v-on:click="(event) => toggleShowInfo(event, i)" class="btn ml-auto btn-dark px-4">Show</button>
+            <button v-on:click="(event) => toggleShowInfo(event, i)" class="btn ml-auto btn-dark px-4">Show</button> 
             <button class="btn btn-danger px-3 ml-3" v-on:click="deleteChannelReactions" :data-i="i">Delete</button>
           </div>
-          <ShowReaction :savedReaction="message" :show="message.show" />
+          <EditReactionForm :savedReaction="message" :show="message.show" />
         </div>
       </div>
       <button v-on:click="toggleReactionForm" class="w-100 btn btn-info px-3" id="addReactRoles">Create New React Roles</button>
@@ -27,7 +27,7 @@
 <script>
 import api from "@/config/api.js";
 import ReactionForm from "@/components/ReactionForm.vue";
-import ShowReaction from "@/components/ShowReaction.vue";
+import EditReactionForm from "@/components/EditReactionForm.vue";
 
 export default {
   name: 'ReactRoles',
@@ -36,7 +36,7 @@ export default {
   },
   components: {
     ReactionForm,
-    ShowReaction
+    EditReactionForm
   },
   data: function() {
     return {

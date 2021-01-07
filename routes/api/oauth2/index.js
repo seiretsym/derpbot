@@ -17,6 +17,7 @@ router.route("/discord-callback")
       'redirect_uri': process.env.REDIRECT_URI,
       'scope': 'identify email guilds'
     }
+    console.log(data);
     // attempt to retrieve user token
     axios.post("https://discord.com/api/oauth2/token", qs.stringify(data), {
       headers: {

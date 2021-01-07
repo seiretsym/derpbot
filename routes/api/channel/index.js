@@ -2,6 +2,11 @@ const router = require("express").Router();
 const db = require("../../../models");
 const axios = require("axios");
 require("dotenv").config();
+const headers = {
+  headers: {
+    "Authorization": `Bot ${process.env.BOT_TOKEN}`
+  }
+}
 
 router.route("/getReactions/:id")
   .get((req, res) => {
@@ -25,72 +30,77 @@ router.route("/editReaction/:id")
     console.log(req.body)
     axios.patch(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}`, {
       content: req.body.message
-    }, {
-      headers: {
-        "Authorization": `Bot ${process.env.BOT_TOKEN}`
-      }
-    })
+    }, headers)
       .then(() => {
-        req.body.reactions.map((reaction, i) => {
-          setTimeout(function () {
-            if (isNaN(reaction)) {
-              if (reaction[0] === "%") {
-                console.log(reaction)
-                axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}/reactions/${reaction}/@me`, {}, {
-                  headers: {
-                    Authorization: `Bot ${process.env.BOT_TOKEN}`
+        // update db
+        db.Channel.updateOne({
+          message_id: req.body.message_id,
+          guild_id: req.body.guild_id,
+          channel_id: req.body.channel_id
+        }, {
+          $set: req.body
+        }).then(() => {
+          axios.get(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}`, headers).then(({ data }) => {
+            const existingReactions = data.reactions;
+            const newReactions = req.body.reactions;
+            console.log(existingReactions);
+            console.log(newReactions);
+            newReactions.forEach((reaction, i) => {
+              if (existingReactions.findIndex(element => element.emoji.id === reaction) < 0) {
+                setTimeout(function () {
+                  if (isNaN(reaction)) {
+                    const encoded = encodeURIComponent(reaction)
+                    axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${data.id}/reactions/${encoded}/@me`, {}, headers)
+                      .catch(err => {
+                        console.log(err)
+                      })
+                  } else {
+                    axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${data.id}/reactions/name:${reaction}/@me`, {}, headers)
+                      .catch(err => {
+                        console.log(err)
+                      })
                   }
-                })
-                  .catch(err => {
-                    console.log(err)
-                  })
-              } else {
-                const encoded = encodeURIComponent(reaction)
-                axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}/reactions/${encoded}/@me`, {}, {
-                  headers: {
-                    Authorization: `Bot ${process.env.BOT_TOKEN}`
-                  }
-                })
-                  .catch(err => {
-                    console.log(err)
-                  })
+                }, 2000 * i)
               }
-            } else {
-              axios.put(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}/reactions/name:${reaction}/@me`, {}, {
-                headers: {
-                  Authorization: `Bot ${process.env.BOT_TOKEN}`
-                }
-              })
-                .catch(err => {
-                  console.log(err)
+              if (existingReactions.length > newReactions.length) {
+                existingReactions.forEach((reaction, j) => {
+                  const rName = reaction.emoji.id || encodeURI(reaction.emoji.name);
+                  let urlComponent = "";
+                  if (!isNaN(rName)) {
+                    urlComponent = "name:"
+                  }
+                  setTimeout(function () {
+                    if (newReactions.indexOf(rName) < 0) {
+                      axios.delete(`https://discord.com/api/channels/${req.body.channel_id}/messages/${req.body.message_id}/reactions/${urlComponent}${rName}`, headers)
+                        .then(() => {
+                          if (j === existingReactions.length - 1) {
+                            res.redirect("/api/bot/restart");
+                          }
+                        })
+                        .catch(err => {
+                          console.log(err);
+                          res.json("uh oh")
+                        })
+                    }
+                  }, (2000 * j))
                 })
-            }
-          }, 1000 * i)
-        })
-        // convert emojis if necessary
-        const newData = { ...req.body }
-        newData.reactions = newData.reactions.map(reaction => {
-          if (isNaN(reaction) && reaction[0] !== "%") {
-            return encodeURIComponent(reaction);
-          } else {
-            return reaction;
-          }
-        })
-        db.Channel
-          .findOneAndUpdate({ _id: req.body._id }, { $set: newData }, { new: true })
-          .then(data => {
-            res.json(data);
-          })
-          .catch(err => {
+              }
+            })
+          }).catch(err => {
             console.log(err);
-            res.json(err);
+            res.json(err)
           })
+
+        }).catch(() => {
+          console.log("something broke");
+          res.json("qq")
+        })
+
       })
       .catch(err => {
         console.log(err);
         res.json(err);
       })
-    res.json("still testing")
   })
 
 // delete a reactrole set up on a server, doesn't delete the bot message, though.

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-darker p-3 rounded d-block mb-3" :id="'edit-' + savedReaction._id">
+  <div class="bg-darker p-3 rounded mb-3 d-none" :id="'edit-' + savedReaction._id">
     <form>
       <div class="form-group">
         <label for="channel" class="font-weight-bold">Channel</label>
@@ -160,7 +160,7 @@ export default {
   watch: {
     newEvent: {
       handler(event) {
-        if (event.channel !== "" && event.message !== "" && event.roles.find(role => role === " ") === undefined && event.reactions.length > 0) {
+        if (event.message !== "" && event.roles.find(role => role === " ") === undefined && event.reactions.length > 0) {
             document.querySelector(`#save-${this.savedReaction._id}`).classList.remove("disabled");
         } else {
             document.querySelector(`#save-${this.savedReaction._id}`).classList.add("disabled");

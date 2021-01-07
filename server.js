@@ -7,7 +7,7 @@ const Discord = require("discord.js");
 const db = require("./models");
 
 // bot functions
-let client;
+let client = "";
 
 // start the bot
 function startBot(data) {
@@ -118,7 +118,9 @@ app.use(session({ secret: "derp", resave: true, saveUninitialized: true }));
 // bot routes
 app.get("/api/bot/start", (req, res) => {
   // destroy old client
-  client.destroy();
+  if (client != "") {
+    client.destroy();
+  }
   db.Channel.find({}).then(data => {
     if (data.length > 0) {
       // start the damn bot
