@@ -206,7 +206,7 @@ export default {
         roles: [...this.newEvent.roles]
       }
       api.editReaction(this.savedReaction._id, data)
-      .then(data => {
+      .then(() => {
         window.location.replace(`/plugins?guild=${this.$route.query.guild}`)
       })
       .catch(err => {
