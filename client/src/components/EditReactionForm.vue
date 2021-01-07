@@ -81,7 +81,7 @@ div.reaction {
   color: white;
   position: absolute;
   top: 35px;
-  right: 0px;
+  right: 20px;
   z-index: 2;
 }
 
