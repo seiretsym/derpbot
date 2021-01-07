@@ -207,7 +207,7 @@ export default {
       }
       api.editReaction(this.savedReaction._id, data)
       .then(data => {
-        console.log(data);
+        window.location.replace(`/plugins?guild=${this.$route.query.guild}`)
       })
       .catch(err => {
         console.log(err);
