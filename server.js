@@ -25,19 +25,19 @@ function startBot(data) {
         const guild = await client.guilds.fetch(event.guild_id);
       } catch (err) {
         console.log("Discord Server not found. Removing service...");
-        db.Channel.delete({ _id: event._id });
+        db.Channel.deleteOne({ _id: event._id });
       }
       try {
         const channel = await client.channels.fetch(event.channel_id);
       } catch (err) {
         console.log("Discord Channel not found. Removing service...");
-        db.Channel.delete({ _id: event._id });
+        db.Channel.deleteOne({ _id: event._id });
       }
       try {
         const message = await channel.messages.fetch(event.message_id);
       } catch (err) {
         console.log("Discord Channel Message not found. Removing service...");
-        db.Channel.delete({ _id: event._id });
+        db.Channel.deleteOne({ _id: event._id });
       }
       let reactions = event.reactions;
       const roles = event.roles;
