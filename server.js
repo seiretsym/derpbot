@@ -21,23 +21,28 @@ function startBot(data) {
     console.log(`Derp Bot servicing ${data.length} channels`)
     data.forEach(async event => {
       // grab specific guild, channel, and message via IDs
+      // chain of tests in-case users delete discord server, channel, or message where react role is servicing
       try {
         const guild = await client.guilds.fetch(event.guild_id);
+        try {
+          const channel = await client.channels.fetch(event.channel_id);
+          try {
+            const message = await channel.messages.fetch(event.message_id);
+          } catch (err) {
+            // stop service and remove from database if any of the tests above fail
+            console.log("Discord Channel Message not found. Removing service...");
+            db.Channel.deleteOne({ _id: event._id })
+              .then(() => console.log(`Service Removed: ${event._id}`));
+          }
+        } catch (err) {
+          console.log("Discord Channel not found. Removing service...");
+          db.Channel.deleteOne({ _id: event._id })
+            .then(() => console.log(`Service Removed: ${event._id}`));
+        }
       } catch (err) {
         console.log("Discord Server not found. Removing service...");
-        db.Channel.deleteOne({ _id: event._id });
-      }
-      try {
-        const channel = await client.channels.fetch(event.channel_id);
-      } catch (err) {
-        console.log("Discord Channel not found. Removing service...");
-        db.Channel.deleteOne({ _id: event._id });
-      }
-      try {
-        const message = await channel.messages.fetch(event.message_id);
-      } catch (err) {
-        console.log("Discord Channel Message not found. Removing service...");
-        db.Channel.deleteOne({ _id: event._id });
+        db.Channel.deleteOne({ _id: event._id })
+          .then(() => console.log(`Service Removed: ${event._id}`));
       }
       let reactions = event.reactions;
       const roles = event.roles;
