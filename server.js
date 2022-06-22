@@ -21,9 +21,24 @@ function startBot(data) {
     console.log(`Derp Bot servicing ${data.length} channels`)
     data.forEach(async event => {
       // grab specific guild, channel, and message via IDs
-      const guild = await client.guilds.fetch(event.guild_id)
-      const channel = await client.channels.fetch(event.channel_id)
-      const message = await channel.messages.fetch(event.message_id)
+      try {
+        const guild = await client.guilds.fetch(event.guild_id);
+      } catch (err) {
+        console.log("Discord Server not found. Removing service...");
+        db.Channel.delete({ _id: event._id });
+      }
+      try {
+        const channel = await client.channels.fetch(event.channel_id);
+      } catch (err) {
+        console.log("Discord Channel not found. Removing service...");
+        db.Channel.delete({ _id: event._id });
+      }
+      try {
+        const message = await channel.messages.fetch(event.message_id);
+      } catch (err) {
+        console.log("Discord Channel Message not found. Removing service...");
+        db.Channel.delete({ _id: event._id });
+      }
       let reactions = event.reactions;
       const roles = event.roles;
 
