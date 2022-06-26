@@ -22,12 +22,13 @@ function startBot(data) {
     data.forEach(async event => {
       // grab specific guild, channel, and message via IDs
       // chain of tests in-case users delete discord server, channel, or message where react role is servicing
+      let guild, channel, message;
       try {
-        const guild = await client.guilds.fetch(event.guild_id);
+        guild = await client.guilds.fetch(event.guild_id);
         try {
-          const channel = await client.channels.fetch(event.channel_id);
+          channel = await client.channels.fetch(event.channel_id);
           try {
-            const message = await channel.messages.fetch(event.message_id);
+            message = await channel.messages.fetch(event.message_id);
           } catch (err) {
             // stop service and remove from database if any of the tests above fail
             console.log("Discord Channel Message not found. Removing service...");
