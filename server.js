@@ -14,7 +14,7 @@ function startBot(data) {
   // create a new client to listen on
   // should probably handle this per server (work to do)
   client = new Client({
-    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMessageReactions, GatewayIntentBits.GuildMembers]
   });
   // login with bot
   client.login(process.env.BOT_TOKEN)
