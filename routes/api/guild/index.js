@@ -18,8 +18,7 @@ router.route("/getChannels/:id")
           res.json(data.filter(channel => channel.type === 0))
         })
         .catch(err => {
-          console.log("##### get /api/channel/getChannels/:id");
-          console.log(err);
+          console.log(`##### get /api/channel/getChannels/:id`);
           res.json("Error retrieving server channels");
         })
     } else {
@@ -74,7 +73,7 @@ router.route("/getChannelCategory/:id")
             console.log(err);
             res.json("Error retrieving Channel Info");
           })
-      }, categoryCount * 30)
+      }, categoryCount * 1200)
     } else {
       res.json("nope")
     }
