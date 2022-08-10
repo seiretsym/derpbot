@@ -3,7 +3,7 @@ const express = require("express");
 const session = require("express-session");
 const mongoose = require("mongoose");
 const routes = require("./routes");
-const Discord = require("discord.js");
+const { Client, GatewayIntentBits } = require("discord.js");
 const db = require("./models");
 
 // bot functions
@@ -13,7 +13,9 @@ let client = "";
 function startBot(data) {
   // create a new client to listen on
   // should probably handle this per server (work to do)
-  client = new Discord.Client();
+  client = new Client({
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+  });
   // login with bot
   client.login(process.env.BOT_TOKEN)
   // event listener: bot is logged in
