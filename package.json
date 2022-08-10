@@ -16,14 +16,14 @@
     "if-env": "1.0.4",
     "mongoose": "^5.10.2",
     "opusscript": "0.0.7",
-    "ytdl-core": "^3.2.2"
-  },
-  "devDependencies": {
+    "ytdl-core": "^3.2.2",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   },
   "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run serve",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
